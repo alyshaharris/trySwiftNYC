@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/Freddy-watchOS/Freddy.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Timepiece-watchOS/Timepiece.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/Freddy-watchOS/Freddy.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Timepiece-watchOS/Timepiece.framework"
 fi

@@ -7,211 +7,231 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B38B025B7B7CB5C1BF758DA81BFB99 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05533D29F579C3001761E8F660C08B40 /* ButtonCell.xib */; };
+		00FC1A93A8CD1183FA7F87320A8C4170 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545DC8DF034AE7EA90A9732675658A2 /* JSONDecodable.swift */; };
+		012B2141CFE43ABAE57209BEA1226F40 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FCEAADEFEEEA411EAA1BF78B94FEF /* SegmentedPagerTabStripViewController.swift */; };
+		01758A13836754ABAFC15377BC05E7E4 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6426A1ED18375658CD93A00568966463 /* JSONParser.swift */; };
+		022D1C5E782FA6258126DDFDAB0E62CE /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FB879A3BB572C73372F65E76388E93 /* Duration.swift */; };
+		029CAEC38B7FD62801E18671932D8AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
+		08B5D917D2FA2E5D8DA65389E81C9D18 /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 05533D29F579C3001761E8F660C08B40 /* ButtonCell.xib */; };
 		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96548003C7F20ACE56C7BB9DC6D24C96 /* Error.swift */; };
-		0B4F44A121372FBF6E435CBE374E1627 /* JSONEncodingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939C25FAF1488A78572C1F60C8201F58 /* JSONEncodingDetector.swift */; };
-		0BCEAFCAC97BC6EF0B268E67E3007482 /* Toucan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 958F1B4978A225F4FB21708E2606A430 /* Toucan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D360AD1AF643AEFC84E2ADB9503F7EB /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78345A6859A48C0CB8F27F7C6C1D8F86 /* NSCalendar+Timepiece.swift */; };
 		0D361BC02EA3B8C476545E29A293CCB8 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F530286DFC50411823EF2213C3E86F9 /* Format.swift */; };
+		0F4D20A645EA95F223C1A76C2AB3A553 /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A359E31AF8A34DE431138104F62462 /* NSDate+Timepiece.swift */; };
+		11AD44FCFBF4DB6EA2C9B9C470BC4D09 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3BCA8D443018345A26ADD644AB712 /* ButtonBarPagerTabStripViewController.swift */; };
+		142FD85341D555C1DCD50AFBB405B9C6 /* Pods-trySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 257EDB6620E4A2AC99C176EE40D0D539 /* Pods-trySwift-dummy.m */; };
+		14B6FE8119F4AC2780B399A63BAB04E3 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6426A1ED18375658CD93A00568966463 /* JSONParser.swift */; };
 		1516896C6C14A90DBF17755D2C5CE345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
+		15EFC93F0A34D002CA4278ED8FFBF8C0 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545DC8DF034AE7EA90A9732675658A2 /* JSONDecodable.swift */; };
+		160AB4D1BA28FF3BC3FF81F9868EC28B /* JSONLiteralConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD22436BD6B9DF105F77D873144A2363 /* JSONLiteralConvertible.swift */; };
 		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E816996D199FB38DAB24D5116CFE05 /* Timeline.swift */; };
-		163C56ADBD329A426F87B0E722888D28 /* Freddy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA6CDFAA85EDE2A01F76B2774291AF0 /* Freddy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18E938F95DB58AF7A4E933D7BD645F0B /* DynamicColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B09E75BCCBF984C7D86CA63324816971 /* DynamicColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C731A7E93B3EE736C2D238AF4AAA843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
-		1CA42755D94C934E058B409FBDB32752 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05533D29F579C3001761E8F660C08B40 /* ButtonCell.xib */; };
 		1D27B06296C346D4F23F5ED14B0A5D1A /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23300DD256980F4E06DD4DCBFF70C1BE /* UIButton+Haneke.swift */; };
-		1F06DDD482E1C79209E84CC6E95C01EB /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 116186F312753D00E271FC5EDC3BA7D8 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2443B5523453B1364FCE544C2C64BA80 /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78345A6859A48C0CB8F27F7C6C1D8F86 /* NSCalendar+Timepiece.swift */; };
+		246848737C7183F4C22BBD3F9100FA4F /* JSONEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0A731DC73791CC1E5B9683FB48B3A2 /* JSONEncodable.swift */; };
 		24E7FCE3DF42DC6D616DC39F8AC69566 /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D352AA0092BE3C89C2F1FBA33DEC430 /* UIImageView+Haneke.swift */; };
-		2A7B6D3C33F50441969BB999F6F6CDD5 /* Timepiece-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1E9C219C5DBDC976D45C831950098 /* Timepiece-watchOS-dummy.m */; };
-		2C3A54B39289091385FEC27F97FD9612 /* VTAcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17483449047D4D78F0062A52A50BB485 /* VTAcknowledgementsViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D0DB3F30BCFDE774121FCECFC7BFE4 /* Validation.swift */; };
-		3160F4952F3466B5BD7400BBF530A235 /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43646603C5156EB5EBDFEA6DB11CD270 /* Int+Timepiece.swift */; };
-		31E98ACF8C46A1E0F05F0238B7E9529A /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731981252C28CFC86E8D89C00B9652A /* ButtonBarViewCell.swift */; };
-		3441D586954C6A292E7F45CAB16E7EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
+		2FB685BD7DD1286B4A321E5A236297A7 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA819CF9FD1A84A449553E2778DDD87B /* String+Timepiece.swift */; };
+		2FE5881D133F1C5F03415633DB6F6FD2 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FCECB102E66EC44371E36EBC8F4458 /* BarView.swift */; };
+		317313D696389F8767B4E0F07AF108B5 /* VTAcknowledgementsViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F32D4886587C08D76A04DF7790091B07 /* VTAcknowledgementsViewController-dummy.m */; };
+		3244A3CB68DBDFBDD6D1AF59D8C60C95 /* VTAcknowledgementsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BE1152CC27DF3BC920EE10819B32B8 /* VTAcknowledgementsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32A9BBA91E97271E9587F7AFD0AB4686 /* JSONEncodingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83002C349B581FF253EDA58635440486 /* JSONEncodingDetector.swift */; };
+		33A4D01A37A5334B21FA583505C46C8F /* VTAcknowledgementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F72F89423389A0FB24DC8E09AEB4C90 /* VTAcknowledgementViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB8AABE7C9773F24CE060AFDC7017C /* NetworkReachabilityManager.swift */; };
-		35B1F7B97E7B1F8D81756BC2D68714CC /* Pods-try Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9A97E44974C8FC6D9259627E50B14 /* Pods-try Extension-dummy.m */; };
-		3829701AC6B686E697C47D7E39CB71F7 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FB879A3BB572C73372F65E76388E93 /* Duration.swift */; };
-		39323628A9173BEE2A06F1E40ACFD609 /* VTAcknowledgementsParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D40EF5077340F75576FB4BA4BE5E2483 /* VTAcknowledgementsParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38F3DBBCAD97B9420DAA37AE19E3DD76 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21420FEBF2268BCD94F42A01E522C861 /* BarPagerTabStripViewController.swift */; };
+		3C80C354AF594868DC329A5579D9F345 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 116186F312753D00E271FC5EDC3BA7D8 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D90F67A3A10F71FD01DEDA59496C1D7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F78C015A83E0A5E6045860201C483 /* Data.swift */; };
-		3E32C4E83FE523179A528729B47B07FC /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3BCA8D443018345A26ADD644AB712 /* ButtonBarPagerTabStripViewController.swift */; };
 		3EA2C091B8672D75066EEEEFE63B5A86 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C8E7AA3601A276CC78F1FE09596C2 /* NetworkFetcher.swift */; };
 		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB0EB893D1C04E30FACBD73FBDC46BA /* ResponseSerialization.swift */; };
+		3EE8CFE42B503DE24196455EE425825A /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43646603C5156EB5EBDFEA6DB11CD270 /* Int+Timepiece.swift */; };
 		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864293C18F7B170EDF90B239C4A1641 /* Manager.swift */; };
 		410D0641B813947CA53F07D75F4624CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
-		42FA2F08668ED5C47FC22D9DED27BB6A /* Timepiece-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B42F9C9FB76E395D956F9B71C5F8E5BC /* Timepiece-iOS-dummy.m */; };
-		4476EEDB89BD2BBE269BA25D9D6869BA /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D24C1244617029A302BE387BD245E90 /* JSONParsing.swift */; };
-		4845004740B5BA147A15EAADD82619A6 /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE286F88C9F13C7B71EC20537CB39DEA /* NSDateComponents+Timepiece.swift */; };
-		4846221CFB40FBC769B5358B6B6FF433 /* VTAcknowledgementsViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6086481A2CA0940A0397074272629B23 /* VTAcknowledgementsViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B8710595044249727FE382C3B1B940 /* Timepiece-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B42F9C9FB76E395D956F9B71C5F8E5BC /* Timepiece-iOS-dummy.m */; };
+		43C7921A1E89355BD5BCD1FA32E3C9F5 /* NSTimeInterval+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC24B5394FACF95357E526FA358BAC /* NSTimeInterval+Timepiece.swift */; };
+		449EFEE94B75516FABB78F728FB12106 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A6B7409593248EA25BAB3E5D15C22A /* JSON.swift */; };
+		497B1FEB241F340FD468B75F855470C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
 		49A5E2B820A83801CEE267AA6E1D923F /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915F82FEFCB9F03A0A6F4B966A4B56E7 /* DiskFetcher.swift */; };
-		4AF0277020A1F082E45291E8F55B8F35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */; };
-		4AFC7AD0283B1723D1CABFAD00B2CF44 /* Toucan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A41BE06B34FB61DB9EF0486BB4768 /* Toucan-dummy.m */; };
-		4C09A78942895C53AC77F996822113DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
-		5214FD00104A476DE8B151D3D5F5D562 /* Pods-trySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45777154B60B6C5CE786F77AEFF7090A /* Pods-trySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		547600CE58C79540FA096EDFB0D835EB /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FB879A3BB572C73372F65E76388E93 /* Duration.swift */; };
-		5524B5816D41F5A570E50D134C84EFE8 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA819CF9FD1A84A449553E2778DDD87B /* String+Timepiece.swift */; };
-		55349DF6E063B2E5B8E0BCC6A8D20050 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA819CF9FD1A84A449553E2778DDD87B /* String+Timepiece.swift */; };
+		4BE7D2FAA71B6E804C8FB1F795BF1395 /* Freddy-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB442A06C64EE3EB37B3FA55F5C1C361 /* Freddy-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4ADB86F2F80B99F274A46B235E62AA /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A359E31AF8A34DE431138104F62462 /* NSDate+Timepiece.swift */; };
+		5050BB04BD2EABAADD337CDC721C05BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */; };
 		55F3BC1465BB2EB6F02ADC5A2D1F9F83 /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18A1DDC20B042CB8FBB5A37749658BA /* String+Haneke.swift */; };
 		560643B27617038512AA64E271DD78C3 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFFD06CE1EEADD0C7890661441B81C /* HSL.swift */; };
-		57D728AADF102495787AD1BA00E06126 /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE286F88C9F13C7B71EC20537CB39DEA /* NSDateComponents+Timepiece.swift */; };
+		5B644F54DCDF860D6210C2413E57CB92 /* JSONSerializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA848C02553E6F19CBE9BFF9B50236C6 /* JSONSerializing.swift */; };
 		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69547F6F15836C763305F0AB06296B4 /* Upload.swift */; };
 		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7598E3240B779E713CDF59B0EB367EB /* Download.swift */; };
+		5D07533B7A4113B2D45F9036EE9577FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
+		5D72DA93BD7AAF87CB819101BC03FE96 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FB879A3BB572C73372F65E76388E93 /* Duration.swift */; };
 		5E8BB815DD73E3E2CF54643B2A191789 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955477D20C86639E0E4C8193ACFE3F38 /* UIKit.framework */; };
+		60DCBAE40919F9457CC1ABE86B523F62 /* Pods-try Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 408380C02B773B436218522CCFC38A9F /* Pods-try Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6242567B427B57EC0D1EFF34A6F46287 /* JSONSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A9726F60FD1654F6608BE822862C1 /* JSONSubscripting.swift */; };
 		62E29425E2735EDFB2FEB127813F4D33 /* DynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B6A883043AF4ECF753B6C959E07A6 /* DynamicColor.swift */; };
 		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FF494EC407930531448DB79045855D /* Response.swift */; };
-		6400C65D7B17C5AF90708D0F8F6FCB63 /* JSONSerializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2ADD108952220E3AFC5C38DF26061 /* JSONSerializing.swift */; };
-		66019A6C845A03746A44128E8E729743 /* VTAcknowledgementsViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63C3B762B2CC7F2FE715E45757F2259D /* VTAcknowledgementsViewController.bundle */; };
-		6BF6FDF2F0023D5A07956FFBFFEEF97B /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C7F307F11CAC1799DE434793705E4 /* IndicatorInfo.swift */; };
-		700BDCB998A8BB5B1CEC2DD2D2D5911F /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD71FE6D0FAF22EE58E2EDEDA4DC7831 /* JSONParser.swift */; };
-		7227CC929329DA85B4D741288B13B5D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
-		768A6F1FBF4DD1D7A445DA4F39B0E178 /* VTAcknowledgementViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA804EB1878117BDED329D7FB292696 /* VTAcknowledgementViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76BAF5F3489C11DA5E7948DD0152B8E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955477D20C86639E0E4C8193ACFE3F38 /* UIKit.framework */; };
+		63ED6D9E5F41E8BF16E5E00DAA05C6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
+		6603AE6A16DFA3C7659AFBF5878EF33B /* Freddy-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF4B3AD65D3E49E9B8844718429B96B /* Freddy-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E87093F3E7A0CE020E8D862BDF4E241 /* Toucan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A41BE06B34FB61DB9EF0486BB4768 /* Toucan-dummy.m */; };
+		7822B5BF0944931F981127A2FB7F9DB2 /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C581F9B025582509D2D8723C7FBF57 /* XLPagerTabStrip-dummy.m */; };
+		7847DAEC55215EAA47F250026749A361 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617496BFB8951359FEDFF14ECE4A2375 /* BaseButtonBarPagerTabStripViewController.swift */; };
+		79D70EB9ED4DC4A477FD44079EADEE5B /* Pods-try Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9A97E44974C8FC6D9259627E50B14 /* Pods-try Extension-dummy.m */; };
+		7AED5C411BD1B445BA5164362438D04F /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43646603C5156EB5EBDFEA6DB11CD270 /* Int+Timepiece.swift */; };
+		7AF4DE34491FC3C75ED8E60284FCFFBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
 		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16408C251E4501C3028867843EF349 /* ServerTrustPolicy.swift */; };
-		7BA50E7766745BB4AF92B863EEA2512F /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43646603C5156EB5EBDFEA6DB11CD270 /* Int+Timepiece.swift */; };
-		7E09E2B73A1C1DE18C4F266BEDA874A6 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F2EF6D3CEEC4283B4108EEBA3C1F4 /* TwitterPagerTabStripViewController.swift */; };
-		83BB44B1548E54E0E63A97AF3A4628F6 /* Timepiece-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D63FC7EBB79FEFAD0DC40495FBC42F99 /* Timepiece-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		852DCE9329B3F83492E536C7880DE49D /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33E762611FF8FFC0B5DB66E10950B400 /* XLPagerTabStrip.bundle */; };
-		865057C55D0ACD07D856B9AA7DEE94A0 /* VTAcknowledgement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6947D920E224D3BCC51392A5B33FEBD0 /* VTAcknowledgement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7CCD661D70743DDFC6ADEA948032B8E7 /* VTAcknowledgement.h in Headers */ = {isa = PBXBuildFile; fileRef = C07B779FE7AF9AF9C7A8A22D040BC0ED /* VTAcknowledgement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C878962DF7516CD00AF1ECC3C70AE5 /* JSONSerializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA848C02553E6F19CBE9BFF9B50236C6 /* JSONSerializing.swift */; };
+		84425B29A1775B431092E6F827A39844 /* VTAcknowledgementsViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6086481A2CA0940A0397074272629B23 /* VTAcknowledgementsViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		870F01EB2992120A75158972AAC3C797 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244E58C7D3A9638A8FBEA2B60BB73AC /* SwipeDirection.swift */; };
+		894F9FEB7AA253568C873DFF090D7B0E /* Freddy-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F25D7455226529A66DD7FC26449FFE1 /* Freddy-iOS-dummy.m */; };
 		8A85C4CDF0FE775E0BD0C44B0C3E6159 /* NSURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF01DD03F6FE495B1BDB943CCCA782 /* NSURLResponse+Haneke.swift */; };
-		8B86F02992AEE2A8A77378C420F05AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
 		8C357B44EA2BC147AA0219CD8CC03B5F /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04492F5A4F9A2591E0F4038C71AB1C5E /* Fetcher.swift */; };
-		8D1FDC1B18DF0184605A3321A257CFA6 /* NSCalendarUnit+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86462FE5B843F6AE7A7D3F2E52E0891B /* NSCalendarUnit+Timepiece.swift */; };
+		8CAC22E976B67989110331FE4904FD1D /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D241ADD7C52706E9F1499D0F4885CA98 /* FXPageControl.m */; };
 		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113606F376ECE6ABBA861CE745782739 /* Alamofire.swift */; };
+		8F48FBEFE9DBED4E292E99E0B6E6081D /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EECA3D3C38593FFC57E12F6277501E /* Toucan.swift */; };
 		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
 		92A2D4839D45ABA48D77923C035C8943 /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327249DEACD82770DAF13938FFBA21C8 /* NSFileManager+Haneke.swift */; };
-		930C83E53FD1EFE058B49BEC8B4D40DD /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FCEAADEFEEEA411EAA1BF78B94FEF /* SegmentedPagerTabStripViewController.swift */; };
+		92F7B33FD2F8214288A46E3655DB3AA0 /* JSONLiteralConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD22436BD6B9DF105F77D873144A2363 /* JSONLiteralConvertible.swift */; };
 		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE8556B6C0FD367D959EFF0EE9A0593 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95C9F7D166D041482D8D330988C3A389 /* JSONSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54950DC123FDB9EED5578EB6D16FF906 /* JSONSubscripting.swift */; };
-		97813CA8CB89DAFD930C27F4AF3F5BEE /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FCECB102E66EC44371E36EBC8F4458 /* BarView.swift */; };
-		97F744DDAD86B9EFF0F3C15E1C033237 /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0882D38A12AB1F561F0FDE5B29202 /* PagerTabStripBehaviour.swift */; };
+		97C22DD0CA40CD6000BE967240BE667F /* VTAcknowledgementViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA804EB1878117BDED329D7FB292696 /* VTAcknowledgementViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9831DDC5256EF014D93FF2DBE055E7B6 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582CCAABD2E3D29736D2BAB9D34B7D61 /* Cache.swift */; };
-		984231A684E834276DD272AA8D0922D9 /* VTAcknowledgement.h in Headers */ = {isa = PBXBuildFile; fileRef = C07B779FE7AF9AF9C7A8A22D040BC0ED /* VTAcknowledgement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9911E1A886CD44872C07FAA6A1521A85 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA70158176B01F63F3EE055D743957 /* Log.swift */; };
-		99A312A29811B785F8F35EEAB3D615AE /* Freddy.h in Headers */ = {isa = PBXBuildFile; fileRef = C54EE863118E159C6EE01DB02BA40855 /* Freddy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99B945671C36F1B537957E91BA3785B6 /* Pods-trySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 257EDB6620E4A2AC99C176EE40D0D539 /* Pods-trySwift-dummy.m */; };
+		998404FE815A543B87B3DEE31ABDEED8 /* Timepiece-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BFEDCE59CFC4337481E6F65D08F4F80 /* Timepiece-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C01264A41D3F5D514FD7BAB99E7014F /* VTAcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17483449047D4D78F0062A52A50BB485 /* VTAcknowledgementsViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9D5F6868132325D38051C5A07F128C5C /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F3BBF8846E3F72656CFE056E55F5AE /* UIView+Haneke.swift */; };
-		9DDD7E9CEA5A44B0BD55E0EAE62BE7EC /* JSONLiteralConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419E7E4AA20930CB6685C1B3F58D266 /* JSONLiteralConvertible.swift */; };
 		9E629066D218DC1DC616E339DB68E49C /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460733D5F030F65A633C6B71D4AA918 /* CryptoSwiftMD5.swift */; };
 		9F4D113C6A4469F0DFAC637F1CA2C087 /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C0FFC423CB428424A258427B7AF53E /* CGSize+Swift.swift */; };
-		A25015B42BBC2EB5701AC6E6E9B4D238 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */; };
-		A8055617EE612BF8AC713939482B4CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
-		A811A882B86236114557ABAA7FDC1C3F /* NSTimeInterval+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC24B5394FACF95357E526FA358BAC /* NSTimeInterval+Timepiece.swift */; };
+		9F880AFFA126B12CBFF8008117BE0264 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA819CF9FD1A84A449553E2778DDD87B /* String+Timepiece.swift */; };
+		A2078B6071FA489EFB0FAE0755E73785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */; };
+		A3F6B3AC6998D6458D1D4610C83B080E /* Timepiece-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D63FC7EBB79FEFAD0DC40495FBC42F99 /* Timepiece-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A52FF475170305CF61DB3F4F43736D9A /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828E4B07BA2B84838A07BD29ACCC961F /* PagerTabStripError.swift */; };
+		A8BFF8581AD9CB5A4849AAA424E54298 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F2EF6D3CEEC4283B4108EEBA3C1F4 /* TwitterPagerTabStripViewController.swift */; };
 		A8CF635DBE430F95FB17D371B918B3FB /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5DFBE8289AE192E42CD34DCD22885F /* UIImage+Haneke.swift */; };
 		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2ECE19D6B267EE36C2FBCE9FFE1F72 /* Result.swift */; };
+		AABC52E3676EA3B9E281B4B55435B688 /* VTAcknowledgement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6947D920E224D3BCC51392A5B33FEBD0 /* VTAcknowledgement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AB02DD775A289B55B03F87A73525B611 /* HanekeSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E08CCEA905B12EB23D4ECA5EA620A053 /* HanekeSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD4F8E5E41ABF61BBE365DC55C8BB30D /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828E4B07BA2B84838A07BD29ACCC961F /* PagerTabStripError.swift */; };
 		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA78A8D355B4F4E0094BDC060CA50 /* Alamofire-dummy.m */; };
 		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92BBDC7FCE0D2A1F5D270A9924240E /* Stream.swift */; };
 		AEB48C925DC8D4B812C4ABF9F15C822E /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86BFD473D0325CCD981869DD3C9C45 /* DiskCache.swift */; };
+		B07CB92BF782ED76F614DD8CC2A8B533 /* Freddy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D330C73B4311F87CC05456692A5715A /* Freddy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B09D631C6286E3B3A0F593C6AEDD1C59 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320C547105DF4C77294CD1F3A6A4CF4 /* ButtonBarView.swift */; };
+		B1B5D999F3D3DC0C9FFA98C592A3DE97 /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78345A6859A48C0CB8F27F7C6C1D8F86 /* NSCalendar+Timepiece.swift */; };
 		B1CCF02E757EE856275CE85BF171ED90 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F0C1D94D8B68B45C0EA2133DCDB29 /* Fetch.swift */; };
-		B1DD3C194C0C81A677D4DBC03BD2FC4A /* Timepiece-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BFEDCE59CFC4337481E6F65D08F4F80 /* Timepiece-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5E18CD61714B39443C7DA2DA5832E4B /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C581F9B025582509D2D8723C7FBF57 /* XLPagerTabStrip-dummy.m */; };
-		B819EFED9A60EAAFB6D0BA7454B6DC5B /* Pods-try Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 408380C02B773B436218522CCFC38A9F /* Pods-try Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B992EFF6BC7CA34F3C306ED6353B9636 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320C547105DF4C77294CD1F3A6A4CF4 /* ButtonBarView.swift */; };
+		B2F67D525EA7EA1C7620952046C3ED6E /* JSONEncodingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83002C349B581FF253EDA58635440486 /* JSONEncodingDetector.swift */; };
+		B4589A0CD486A68B23A9E597E8620907 /* NSCalendarUnit+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86462FE5B843F6AE7A7D3F2E52E0891B /* NSCalendarUnit+Timepiece.swift */; };
+		B5F10C4866911A55DBB74AB39D722953 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955477D20C86639E0E4C8193ACFE3F38 /* UIKit.framework */; };
+		B77453C8ACD88124585370B2144FD4A6 /* VTAcknowledgementsViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63C3B762B2CC7F2FE715E45757F2259D /* VTAcknowledgementsViewController.bundle */; };
+		B785C5C0B36CD1B4951C602B39546544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */; };
+		BA400BDF712D4E342C17E0703BB9D6D6 /* Timepiece-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1E9C219C5DBDC976D45C831950098 /* Timepiece-watchOS-dummy.m */; };
 		BD038EFFD2D1B49B136B42B5E07D59C5 /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F68FEC8B66D1C5A23B42FB8547BB9 /* Haneke.swift */; };
+		BDFA99719BD4BEB6B8DBB263BAEC7551 /* Freddy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D330C73B4311F87CC05456692A5715A /* Freddy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5999D49E2446C2C7DA6E0534B7735 /* Notifications.swift */; };
+		BFD88901644B20D54B02C50F2189154D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */; };
 		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191177DA9479CDAE9376F3732063B13 /* ParameterEncoding.swift */; };
-		C0F3756C4C77EC31F50AF6E1F794B042 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5F9B7F9B4E5EFE1E7A9E5AFAE7597B /* JSONDecodable.swift */; };
-		C462878DFB95817E60D3E0D3DB154640 /* VTAcknowledgementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F72F89423389A0FB24DC8E09AEB4C90 /* VTAcknowledgementViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C28CFD60E96615DAF011FAE5DE7B4B54 /* VTAcknowledgementsParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D40EF5077340F75576FB4BA4BE5E2483 /* VTAcknowledgementsParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C422DF8807BE33ECFA077400495BAFA0 /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE286F88C9F13C7B71EC20537CB39DEA /* NSDateComponents+Timepiece.swift */; };
+		C4BCA868B61B97D026E173C2BB429434 /* JSONSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A9726F60FD1654F6608BE822862C1 /* JSONSubscripting.swift */; };
+		C6915662F36D27B6A156F4C2535F79D1 /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE286F88C9F13C7B71EC20537CB39DEA /* NSDateComponents+Timepiece.swift */; };
+		C744C72A5F3AAE8873BCCF16A4B7B75F /* VTAcknowledgementsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 73220527BEF85F91555BC89AFA97060E /* VTAcknowledgementsParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DC7B64459FFCB1B0D0329B434C70C1 /* MultipartFormData.swift */; };
-		CC7F5D04E26E5E2117CBABA597225B59 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D243F900E25C295909F355A4E28FFA /* JSON.swift */; };
-		D30BF8BCBE141E5649755AF31F111594 /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78345A6859A48C0CB8F27F7C6C1D8F86 /* NSCalendar+Timepiece.swift */; };
-		DBAECB5CEBA38F82105DF9177E1EFB61 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617496BFB8951359FEDFF14ECE4A2375 /* BaseButtonBarPagerTabStripViewController.swift */; };
-		DCC18842352BAAA8CE771A0B92AA7C4C /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EC669E3D9D717C4DE3D95027654A13 /* PagerTabStripViewController.swift */; };
+		C7EDD401EAB7FB9A0405ADF99E39E029 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C7F307F11CAC1799DE434793705E4 /* IndicatorInfo.swift */; };
+		CCF448A29BF9C8B735763DFA42620251 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EC669E3D9D717C4DE3D95027654A13 /* PagerTabStripViewController.swift */; };
+		D1EBF38B5771607AE95AC311A468F03C /* Toucan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 958F1B4978A225F4FB21708E2606A430 /* Toucan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B7ED401F1EC8B1F7672791CEF21A3B /* NSCalendarUnit+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86462FE5B843F6AE7A7D3F2E52E0891B /* NSCalendarUnit+Timepiece.swift */; };
+		D5E8FA3CC15F6B57BA8C8D6AC7A63246 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A038738B0ADAF343641CF3F75BA3113E /* JSONParsing.swift */; };
+		D91A3E70162B66F8C34CC9532E6D0D17 /* Freddy-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B319488A4568AF0983885D9B63236F2C /* Freddy-watchOS-dummy.m */; };
+		DACD511C71F1B5697AC7D05FC093403D /* NSTimeInterval+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC24B5394FACF95357E526FA358BAC /* NSTimeInterval+Timepiece.swift */; };
 		DDAE2730611AEF6250382CE67A9AD99A /* DynamicColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF226AD89742EE062E23F6D92424B8D /* DynamicColor-dummy.m */; };
-		DE166EF0DC1573898828B1EED953358C /* NSCalendarUnit+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86462FE5B843F6AE7A7D3F2E52E0891B /* NSCalendarUnit+Timepiece.swift */; };
-		DED985118A715A0980BA8CFE6412A266 /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 05533D29F579C3001761E8F660C08B40 /* ButtonCell.xib */; };
 		DF6DBB5FA4E663A5AE7F272CA1CBA3BB /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8590A29DD07E7E1A69D329444C136E6 /* NSHTTPURLResponse+Haneke.swift */; };
-		E09AAE6F054990ED86E632CCCA960010 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244E58C7D3A9638A8FBEA2B60BB73AC /* SwipeDirection.swift */; };
-		E18CEFBDCCBD74A9F9F72C14C0DDA564 /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A359E31AF8A34DE431138104F62462 /* NSDate+Timepiece.swift */; };
-		E25FE1601113BA8CF2E87547AE16FDDC /* NSTimeInterval+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC24B5394FACF95357E526FA358BAC /* NSTimeInterval+Timepiece.swift */; };
-		E597971E2E9FC8DAE78D697CBD10046D /* JSONEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7127C33A7F86C4AD6904B3F44136F365 /* JSONEncodable.swift */; };
-		E5AEBE59578EF72331BC547B46B71E87 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F4A92CD44A495DB13D664B16BD4666 /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E77001011B0459E3DE9B5EC9B3BBB1D6 /* VTAcknowledgementsViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F32D4886587C08D76A04DF7790091B07 /* VTAcknowledgementsViewController-dummy.m */; };
-		EC32E246C18551BCF0A8D04DD5FF791D /* VTAcknowledgementsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BE1152CC27DF3BC920EE10819B32B8 /* VTAcknowledgementsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE3959D6DACDB98E95C761CEA33E04A2 /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A359E31AF8A34DE431138104F62462 /* NSDate+Timepiece.swift */; };
+		E41C49EC68EC6E6453EF8909281408B0 /* JSONEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0A731DC73791CC1E5B9683FB48B3A2 /* JSONEncodable.swift */; };
+		E59536C626F6A3C65318D21FE50B3911 /* Pods-trySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45777154B60B6C5CE786F77AEFF7090A /* Pods-trySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A6EC182EDFD3D45DB227D054C30743 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A6B7409593248EA25BAB3E5D15C22A /* JSON.swift */; };
+		E88D0B149F1E5849A420F3B39439C40F /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 03933C50CDE4B6DF768E5699D3033D32 /* XLPagerTabStrip.bundle */; };
+		EF2AD0CE0C177B8B3FC0A826E580FAD9 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A038738B0ADAF343641CF3F75BA3113E /* JSONParsing.swift */; };
 		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6923255127D7196918D390E95C43577D /* Request.swift */; };
 		F03916F3658FFB4643AD5FC815A4F5A7 /* HanekeSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA3514F7D6AB729DD2F1BDF06DCABF /* HanekeSwift-dummy.m */; };
-		F923547C0F24FABC65AEAFD5D1AB2791 /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EECA3D3C38593FFC57E12F6277501E /* Toucan.swift */; };
-		FA7809050DFE1645B80CD315B7A1366C /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D241ADD7C52706E9F1499D0F4885CA98 /* FXPageControl.m */; };
-		FDB24A67301DAC22E84605827EDDBABB /* Freddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D19614841DC2F9BC2E804A48EF4CFD /* Freddy-dummy.m */; };
-		FDE6F4EFDF6A59CCAAF78D917502B00E /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21420FEBF2268BCD94F42A01E522C861 /* BarPagerTabStripViewController.swift */; };
-		FE93B36D8BD73FB0C7BBEE21CA9B4A64 /* VTAcknowledgementsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 73220527BEF85F91555BC89AFA97060E /* VTAcknowledgementsParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F07025A7516AF9A28ED5A99075CCD8AA /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F4A92CD44A495DB13D664B16BD4666 /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F960F2E5D72C50215C9AF11E4CBA293F /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0882D38A12AB1F561F0FDE5B29202 /* PagerTabStripBehaviour.swift */; };
+		FF078172A2B09B5106058CA1A1305408 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731981252C28CFC86E8D89C00B9652A /* ButtonBarViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20801A27452E70C1C4FF9FBA0EADD326 /* PBXContainerItemProxy */ = {
+		03DA195D8658ACF6D524C1C6656D428A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EEE4BFE3AC283ECEA2CF60A4C399216A;
-			remoteInfo = Freddy;
-		};
-		2A77B7F88CF895277E054D431A2AA9E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B6E40B400C3FB5EE0731D2E536A8BC5;
-			remoteInfo = "Timepiece-watchOS";
-		};
-		4E3959F221F63422428EADBC247E1321 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0DB38520FE11FCFDD3DD5E187787598B;
+			remoteGlobalIDString = BFD3B4F205BFD07B811D8D4B61F7FB22;
 			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
 		};
-		63A40EF408840FFF9F624BD0F6BB37D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 67F82E1A874314EEDD9AD23A63EDCCAB;
-			remoteInfo = "Timepiece-iOS";
-		};
-		7AFA2AF01092FC7955156F083D6D041F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9444368BFABBFDCE73593DF12C39DF12;
-			remoteInfo = VTAcknowledgementsViewController;
-		};
-		88D03248975A2812671C6B8A557847A3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A7C84251A158DB0978808A12B4D41E6;
-			remoteInfo = Toucan;
-		};
-		A2A5D5EA36D61909A5C459E1CA4F7068 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D675C5BE67C87F157385F3F4D987D220;
-			remoteInfo = XLPagerTabStrip;
-		};
-		D65345867161F6C9A837F12124D58C39 /* PBXContainerItemProxy */ = {
+		7575C10511E78B1F11B582AB7A05F749 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 08F6A5AF8E89681F880EB03F167AACB7;
 			remoteInfo = DynamicColor;
 		};
-		E4C61E53AE3B987068855B6565AAF208 /* PBXContainerItemProxy */ = {
+		9B54A4E615D00F1ED23EE61E1D3D3445 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = 056DA32390D5BECCC38232B2ED0CB5ED;
+			remoteInfo = XLPagerTabStrip;
 		};
-		F55739A11A0A155930B60B5BF2440D76 /* PBXContainerItemProxy */ = {
+		9D4F19D8F6B3960FCD4269C3BEA1978E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2C2B1953A91633859BF7AD238FF567A0;
 			remoteInfo = HanekeSwift;
 		};
+		ABF4E7E884A7C6349E9B1291B782E8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4D29B664B81C6170AECBFB2FDBD43E;
+			remoteInfo = "Freddy-iOS";
+		};
+		BA563E960E5AF0D0E99F7E73EFB142CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6CE9FAAED6E2D7EAD2F550F0718D989;
+			remoteInfo = VTAcknowledgementsViewController;
+		};
+		C498DD39BEC516B29A9831CE73DD29C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		E024E9C0F1D0C8E534AE3192EDADF05E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84F95BDB30C1941CA67F633B21AD386;
+			remoteInfo = "Freddy-watchOS";
+		};
+		E3AAD7533D6AD24116C7EA54513EF5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565D35CA8D43F9717E722EADF0879082;
+			remoteInfo = "Timepiece-iOS";
+		};
+		E42A39305AEC7EAA69BCC73073E79B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84B78707EEF3C06E5E0E57F1BB96173;
+			remoteInfo = Toucan;
+		};
+		EE281A627F7773107498BA79AD1B2703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91624C883A0B8BE38073A052701CDCC;
+			remoteInfo = "Timepiece-watchOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022CA98EBFAC9CC49343E81F911FCC98 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03933C50CDE4B6DF768E5699D3033D32 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		04492F5A4F9A2591E0F4038C71AB1C5E /* Fetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = Haneke/Fetcher.swift; sourceTree = "<group>"; };
 		05533D29F579C3001761E8F660C08B40 /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
 		061E9A967D3102BD462EBF9F96D102A7 /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
@@ -222,17 +242,17 @@
 		1116BD223AE83BD6BEEF8BFC04E93A5D /* DynamicColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DynamicColor.modulemap; sourceTree = "<group>"; };
 		113606F376ECE6ABBA861CE745782739 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		116186F312753D00E271FC5EDC3BA7D8 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
-		1419E7E4AA20930CB6685C1B3F58D266 /* JSONLiteralConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONLiteralConvertible.swift; path = Sources/JSONLiteralConvertible.swift; sourceTree = "<group>"; };
 		17483449047D4D78F0062A52A50BB485 /* VTAcknowledgementsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgementsViewController.m; path = Classes/VTAcknowledgementsViewController.m; sourceTree = "<group>"; };
 		188B1521DEE18208F147FC2DF6A20D0A /* Pods-trySwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-trySwift-acknowledgements.plist"; sourceTree = "<group>"; };
-		19E03E7AC6D581B54495514DBBEC0100 /* Pods_trySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2C8E7AA3601A276CC78F1FE09596C2 /* NetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = Haneke/NetworkFetcher.swift; sourceTree = "<group>"; };
+		1D330C73B4311F87CC05456692A5715A /* Freddy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Freddy.h; path = Sources/Freddy.h; sourceTree = "<group>"; };
 		1D352AA0092BE3C89C2F1FBA33DEC430 /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
-		1DAC078C7E6E6923CB6FE51DAA9AA4D4 /* Timepiece.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Timepiece.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4C559D4188508D948D44083A58452C /* Freddy-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Freddy-watchOS.modulemap"; path = "../Freddy-watchOS/Freddy-watchOS.modulemap"; sourceTree = "<group>"; };
 		1F0CC5379AA698616C5320658B93D18E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F4C7F307F11CAC1799DE434793705E4 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
 		1F530286DFC50411823EF2213C3E86F9 /* Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Format.swift; path = Haneke/Format.swift; sourceTree = "<group>"; };
 		1F72F89423389A0FB24DC8E09AEB4C90 /* VTAcknowledgementViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgementViewController.m; path = Classes/VTAcknowledgementViewController.m; sourceTree = "<group>"; };
+		1FD5E306B20D14B02A67579748D368A5 /* Pods_trySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21420FEBF2268BCD94F42A01E522C861 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		21A359E31AF8A34DE431138104F62462 /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Timepiece.swift"; path = "Sources/NSDate+Timepiece.swift"; sourceTree = "<group>"; };
 		22C581F9B025582509D2D8723C7FBF57 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
@@ -240,97 +260,102 @@
 		2472B22BCF93E3EEBF566308F05BB945 /* Pods-trySwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-trySwift-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24B5999D49E2446C2C7DA6E0534B7735 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		24FF494EC407930531448DB79045855D /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		25527577543E3138B40A6391A4830315 /* Freddy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Freddy.modulemap; sourceTree = "<group>"; };
 		257EDB6620E4A2AC99C176EE40D0D539 /* Pods-trySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-trySwift-dummy.m"; sourceTree = "<group>"; };
 		2A15594ECC0A81466DD50381C5ADE894 /* Timepiece-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Timepiece-iOS.xcconfig"; sourceTree = "<group>"; };
 		2D4FCEAADEFEEEA411EAA1BF78B94FEF /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		2EF4B3AD65D3E49E9B8844718429B96B /* Freddy-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Freddy-watchOS-umbrella.h"; path = "../Freddy-watchOS/Freddy-watchOS-umbrella.h"; sourceTree = "<group>"; };
 		316F78C015A83E0A5E6045860201C483 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Haneke/Data.swift; sourceTree = "<group>"; };
 		327249DEACD82770DAF13938FFBA21C8 /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
+		32F31784AF101878C61346FA062D9CF4 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F95F5D8B22EA638D8F1EBDCEE7FA00 /* Pods-try Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-try Extension-acknowledgements.plist"; sourceTree = "<group>"; };
-		33E762611FF8FFC0B5DB66E10950B400 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D1E9C219C5DBDC976D45C831950098 /* Timepiece-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Timepiece-watchOS-dummy.m"; path = "../Timepiece-watchOS/Timepiece-watchOS-dummy.m"; sourceTree = "<group>"; };
 		360752D9B4B8D1130A404934464182F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5A41BE06B34FB61DB9EF0486BB4768 /* Toucan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toucan-dummy.m"; sourceTree = "<group>"; };
 		3BFEDCE59CFC4337481E6F65D08F4F80 /* Timepiece-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Timepiece-iOS-umbrella.h"; sourceTree = "<group>"; };
+		3C83AA364480A4948209CB2676F923E4 /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0A731DC73791CC1E5B9683FB48B3A2 /* JSONEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodable.swift; path = Sources/JSONEncodable.swift; sourceTree = "<group>"; };
 		408380C02B773B436218522CCFC38A9F /* Pods-try Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-try Extension-umbrella.h"; sourceTree = "<group>"; };
 		41FB879A3BB572C73372F65E76388E93 /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Sources/Duration.swift; sourceTree = "<group>"; };
 		429B58384EDFB74B23774A4B7D9ADEEF /* Pods-try Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-try Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		43646603C5156EB5EBDFEA6DB11CD270 /* Int+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Timepiece.swift"; path = "Sources/Int+Timepiece.swift"; sourceTree = "<group>"; };
 		44BB03B4C72474D86F7ACAA7086492B3 /* Pods-trySwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-trySwift-frameworks.sh"; sourceTree = "<group>"; };
 		45777154B60B6C5CE786F77AEFF7090A /* Pods-trySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-trySwift-umbrella.h"; sourceTree = "<group>"; };
-		47883BF106C2D82F134D5EBB0BA9F60E /* Freddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Freddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4864293C18F7B170EDF90B239C4A1641 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
 		4B2ECE19D6B267EE36C2FBCE9FFE1F72 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		4BA804EB1878117BDED329D7FB292696 /* VTAcknowledgementViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgementViewController.h; path = Classes/VTAcknowledgementViewController.h; sourceTree = "<group>"; };
-		4D5F9B7F9B4E5EFE1E7A9E5AFAE7597B /* JSONDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodable.swift; path = Sources/JSONDecodable.swift; sourceTree = "<group>"; };
 		4DC22128FAC9BDE005D61448D892C28D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		515045C048D8130F96D3378AE1E5336A /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		51A6B7409593248EA25BAB3E5D15C22A /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
 		52FB8AABE7C9773F24CE060AFDC7017C /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		5399431D16C8C6E8E87F05365F48C314 /* HanekeSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-prefix.pch"; sourceTree = "<group>"; };
 		53B768FDCCD428FE80E407F6CE82620A /* Pods-trySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trySwift.release.xcconfig"; sourceTree = "<group>"; };
 		53DC7B64459FFCB1B0D0329B434C70C1 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		54950DC123FDB9EED5578EB6D16FF906 /* JSONSubscripting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSubscripting.swift; path = Sources/JSONSubscripting.swift; sourceTree = "<group>"; };
+		5545DC8DF034AE7EA90A9732675658A2 /* JSONDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodable.swift; path = Sources/JSONDecodable.swift; sourceTree = "<group>"; };
+		5567E4BE161BD3B94E9592B9433B0506 /* Freddy-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Freddy-watchOS-prefix.pch"; path = "../Freddy-watchOS/Freddy-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		56CAD65E5914027B4E7EA30DC7F56158 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		582CCAABD2E3D29736D2BAB9D34B7D61 /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Haneke/Cache.swift; sourceTree = "<group>"; };
 		58C98634AC7AFA67EE0F5BA6FEBC23BF /* HanekeSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanekeSwift.xcconfig; sourceTree = "<group>"; };
 		5AE8556B6C0FD367D959EFF0EE9A0593 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		5D24C1244617029A302BE387BD245E90 /* JSONParsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParsing.swift; path = Sources/JSONParsing.swift; sourceTree = "<group>"; };
-		5F2281001D2A5F876BDCE482F3235442 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF88BF7BE41142BDC157FB24038E973 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6086481A2CA0940A0397074272629B23 /* VTAcknowledgementsViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VTAcknowledgementsViewController-umbrella.h"; sourceTree = "<group>"; };
 		617496BFB8951359FEDFF14ECE4A2375 /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		63C3B762B2CC7F2FE715E45757F2259D /* VTAcknowledgementsViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = VTAcknowledgementsViewController.bundle; sourceTree = "<group>"; };
 		63EECA3D3C38593FFC57E12F6277501E /* Toucan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toucan.swift; path = Source/Toucan.swift; sourceTree = "<group>"; };
+		6426A1ED18375658CD93A00568966463 /* JSONParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = Sources/JSONParser.swift; sourceTree = "<group>"; };
 		6923255127D7196918D390E95C43577D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		6947D920E224D3BCC51392A5B33FEBD0 /* VTAcknowledgement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgement.m; path = Classes/VTAcknowledgement.m; sourceTree = "<group>"; };
 		6C1EC5185513328F11FF1857F4CC9FBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D21016862AFEBC1A2B179EEC2E380EA /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		6DA6CDFAA85EDE2A01F76B2774291AF0 /* Freddy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-umbrella.h"; sourceTree = "<group>"; };
+		6F25D7455226529A66DD7FC26449FFE1 /* Freddy-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Freddy-iOS-dummy.m"; sourceTree = "<group>"; };
 		6F357B00BEBDD3192342E804F4705867 /* DynamicColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-prefix.pch"; sourceTree = "<group>"; };
 		6FAA3306745E2570D71B1D5A9FE4725D /* Timepiece-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Timepiece-iOS-prefix.pch"; sourceTree = "<group>"; };
 		6FF7F5B43214FA9AAA6A575317BFCBDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6FF9A97E44974C8FC6D9259627E50B14 /* Pods-try Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-try Extension-dummy.m"; sourceTree = "<group>"; };
 		70D0DB3F30BCFDE774121FCECFC7BFE4 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		7127C33A7F86C4AD6904B3F44136F365 /* JSONEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodable.swift; path = Sources/JSONEncodable.swift; sourceTree = "<group>"; };
 		7244E58C7D3A9638A8FBEA2B60BB73AC /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
 		73220527BEF85F91555BC89AFA97060E /* VTAcknowledgementsParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgementsParser.m; path = Classes/VTAcknowledgementsParser.m; sourceTree = "<group>"; };
 		7370850FDBE808C4B954743092F42B69 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
 		78345A6859A48C0CB8F27F7C6C1D8F86 /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSCalendar+Timepiece.swift"; path = "Sources/NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
 		7A51389D78ECF717070D9DF76D3C7089 /* Timepiece-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Timepiece-watchOS-prefix.pch"; path = "../Timepiece-watchOS/Timepiece-watchOS-prefix.pch"; sourceTree = "<group>"; };
-		7AC000DD8BE4E22207E463FCA73B0E2D /* Freddy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-prefix.pch"; sourceTree = "<group>"; };
+		7B8692ABD82E215171D59FB2946D5F65 /* VTAcknowledgementsViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VTAcknowledgementsViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF226AD89742EE062E23F6D92424B8D /* DynamicColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicColor-dummy.m"; sourceTree = "<group>"; };
 		8184C6B2A3CF7F88BCC80D26AC19F2E9 /* Pods-try Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-try Extension.modulemap"; sourceTree = "<group>"; };
 		824983D1D63301B1BD0F281953FCBAA1 /* Toucan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toucan-prefix.pch"; sourceTree = "<group>"; };
 		828E4B07BA2B84838A07BD29ACCC961F /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		83002C349B581FF253EDA58635440486 /* JSONEncodingDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingDetector.swift; path = Sources/JSONEncodingDetector.swift; sourceTree = "<group>"; };
 		84725F1B72E63F2AB81CB251F93710D8 /* Toucan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toucan.xcconfig; sourceTree = "<group>"; };
 		84C332D3178942F0FD148706D8552BC6 /* VTAcknowledgementsViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VTAcknowledgementsViewController-prefix.pch"; sourceTree = "<group>"; };
-		86270F8072769C5C3757193BAD3179A0 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86462FE5B843F6AE7A7D3F2E52E0891B /* NSCalendarUnit+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSCalendarUnit+Timepiece.swift"; path = "Sources/NSCalendarUnit+Timepiece.swift"; sourceTree = "<group>"; };
 		8731981252C28CFC86E8D89C00B9652A /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
-		87601FDD620B0D24F6E1BEF4B36751DC /* VTAcknowledgementsViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VTAcknowledgementsViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1F2EF6D3CEEC4283B4108EEBA3C1F4 /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		8ABC24B5394FACF95357E526FA358BAC /* NSTimeInterval+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTimeInterval+Timepiece.swift"; path = "Sources/NSTimeInterval+Timepiece.swift"; sourceTree = "<group>"; };
-		8C8E876D1DACAD81256769CB88A894E4 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90D243F900E25C295909F355A4E28FFA /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
 		915F82FEFCB9F03A0A6F4B966A4B56E7 /* DiskFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskFetcher.swift; path = Haneke/DiskFetcher.swift; sourceTree = "<group>"; };
-		939C25FAF1488A78572C1F60C8201F58 /* JSONEncodingDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingDetector.swift; path = Sources/JSONEncodingDetector.swift; sourceTree = "<group>"; };
+		91CB99FE1CF6B62984F8DD78A0F024C9 /* Freddy-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Freddy-watchOS.xcconfig"; path = "../Freddy-watchOS/Freddy-watchOS.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E816996D199FB38DAB24D5116CFE05 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		94FACA14854EF95C5219C0BE67FC7C4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		955477D20C86639E0E4C8193ACFE3F38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		958F1B4978A225F4FB21708E2606A430 /* Toucan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toucan-umbrella.h"; sourceTree = "<group>"; };
 		96548003C7F20ACE56C7BB9DC6D24C96 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		9E11B399D70B602566745625DC810F6E /* Timepiece.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Timepiece.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7B1733FB4BA329158AAABBA80EBFF1 /* Timepiece-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Timepiece-iOS.modulemap"; sourceTree = "<group>"; };
+		9E85771F5ACDA34FD0004FB61982F2BC /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6877A2BF6806C11E597A021A3D191E /* Pods-try Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-try Extension-resources.sh"; sourceTree = "<group>"; };
+		A038738B0ADAF343641CF3F75BA3113E /* JSONParsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParsing.swift; path = Sources/JSONParsing.swift; sourceTree = "<group>"; };
+		A04D695A18720B984FC761074406D879 /* Freddy-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-iOS-prefix.pch"; sourceTree = "<group>"; };
+		A2009F3507BD0402EA89CE29AE189496 /* Timepiece.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Timepiece.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A498D694EBF86B6942DAFC3D55634DB5 /* Pods-trySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trySwift.debug.xcconfig"; sourceTree = "<group>"; };
 		A6F3BBF8846E3F72656CFE056E55F5AE /* UIView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
 		A8590A29DD07E7E1A69D329444C136E6 /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
 		A95257E8D1A8BEECB7C027A020D99E7E /* Pods-try Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-try Extension.release.xcconfig"; sourceTree = "<group>"; };
+		AB6CB30DC5B4A7AF3316EB0ED159931A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09E75BCCBF984C7D86CA63324816971 /* DynamicColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-umbrella.h"; sourceTree = "<group>"; };
 		B15998FD4622864243925EC06149B174 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		B18A1DDC20B042CB8FBB5A37749658BA /* String+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Haneke.swift"; path = "Haneke/String+Haneke.swift"; sourceTree = "<group>"; };
+		B319488A4568AF0983885D9B63236F2C /* Freddy-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Freddy-watchOS-dummy.m"; path = "../Freddy-watchOS/Freddy-watchOS-dummy.m"; sourceTree = "<group>"; };
 		B4048FEADF0BB0B8F5A474A01B568F8F /* HanekeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HanekeSwift.modulemap; sourceTree = "<group>"; };
 		B42F9C9FB76E395D956F9B71C5F8E5BC /* Timepiece-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Timepiece-iOS-dummy.m"; sourceTree = "<group>"; };
 		B460733D5F030F65A633C6B71D4AA918 /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
-		B4B2ADD108952220E3AFC5C38DF26061 /* JSONSerializing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSerializing.swift; path = Sources/JSONSerializing.swift; sourceTree = "<group>"; };
 		B4C0FFC423CB428424A258427B7AF53E /* CGSize+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Swift.swift"; path = "Haneke/CGSize+Swift.swift"; sourceTree = "<group>"; };
 		B69547F6F15836C763305F0AB06296B4 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
 		B6BE1152CC27DF3BC920EE10819B32B8 /* VTAcknowledgementsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgementsViewController.h; path = Classes/VTAcknowledgementsViewController.h; sourceTree = "<group>"; };
@@ -343,56 +368,67 @@
 		C07B779FE7AF9AF9C7A8A22D040BC0ED /* VTAcknowledgement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgement.h; path = Classes/VTAcknowledgement.h; sourceTree = "<group>"; };
 		C45F3B034106C245682153A6BDEE0388 /* Pods-try Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-try Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C53B2542C2230D9A7F15112036EC1025 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Timepiece-watchOS/Info.plist"; sourceTree = "<group>"; };
-		C54EE863118E159C6EE01DB02BA40855 /* Freddy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Freddy.h; path = Sources/Freddy.h; sourceTree = "<group>"; };
-		C595D93E14AECBE0AE34C7B2EC569243 /* Pods_try_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_try_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C876B0981CB63710482E2A68019643B3 /* DynamicColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicColor.xcconfig; sourceTree = "<group>"; };
 		CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D107CF9F408BF9A7C259FC70D5AF6A2D /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA848C02553E6F19CBE9BFF9B50236C6 /* JSONSerializing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSerializing.swift; path = Sources/JSONSerializing.swift; sourceTree = "<group>"; };
+		CD22436BD6B9DF105F77D873144A2363 /* JSONLiteralConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONLiteralConvertible.swift; path = Sources/JSONLiteralConvertible.swift; sourceTree = "<group>"; };
 		D241ADD7C52706E9F1499D0F4885CA98 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
 		D320C547105DF4C77294CD1F3A6A4CF4 /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
 		D40EF5077340F75576FB4BA4BE5E2483 /* VTAcknowledgementsParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgementsParser.h; path = Classes/VTAcknowledgementsParser.h; sourceTree = "<group>"; };
 		D49B6A883043AF4ECF753B6C959E07A6 /* DynamicColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicColor.swift; path = Sources/DynamicColor.swift; sourceTree = "<group>"; };
 		D4F0882D38A12AB1F561F0FDE5B29202 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		D623EC1A25EA3EBD12ACB07D6E6116BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Freddy-watchOS/Info.plist"; sourceTree = "<group>"; };
 		D63FC7EBB79FEFAD0DC40495FBC42F99 /* Timepiece-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Timepiece-watchOS-umbrella.h"; path = "../Timepiece-watchOS/Timepiece-watchOS-umbrella.h"; sourceTree = "<group>"; };
 		D7598E3240B779E713CDF59B0EB367EB /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
 		D855163CCCE87CBFE10A3D75CD5DD834 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+		D93D816F25F7E9E83D8DB2962E36684E /* Freddy-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Freddy-iOS.modulemap"; sourceTree = "<group>"; };
 		D9E3BCA8D443018345A26ADD644AB712 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		DA92BBDC7FCE0D2A1F5D270A9924240E /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		DB442A06C64EE3EB37B3FA55F5C1C361 /* Freddy-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-iOS-umbrella.h"; sourceTree = "<group>"; };
 		DCAF01DD03F6FE495B1BDB943CCCA782 /* NSURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLResponse+Haneke.swift"; path = "Haneke/NSURLResponse+Haneke.swift"; sourceTree = "<group>"; };
 		DCFBA78A8D355B4F4E0094BDC060CA50 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		DD71FE6D0FAF22EE58E2EDEDA4DC7831 /* JSONParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = Sources/JSONParser.swift; sourceTree = "<group>"; };
-		DF35DFF7B49F69AA473EC783383EED46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6E5DE74B467499BCE35FECDB7678AB /* Freddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Freddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF29CF4F0F2F956B5EB50CC682F37D34 /* Freddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Freddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3675A0CE5F25B4311BCE178E3B29CD /* Pods-try Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-try Extension-frameworks.sh"; sourceTree = "<group>"; };
 		E08CCEA905B12EB23D4ECA5EA620A053 /* HanekeSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-umbrella.h"; sourceTree = "<group>"; };
 		E191177DA9479CDAE9376F3732063B13 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		E43FD46727726C537ABB51DFABFD3EAC /* Pods-trySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-trySwift.modulemap"; sourceTree = "<group>"; };
-		E629CE467178C4C69A68C4CD5B9B951E /* Timepiece.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Timepiece.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70571EE8B8A31F2E39777CFD61E2B45 /* VTAcknowledgementsViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VTAcknowledgementsViewController.modulemap; sourceTree = "<group>"; };
 		E81366ED29EA6A7796E04BC31F32E9FE /* VTAcknowledgementsViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VTAcknowledgementsViewController.xcconfig; sourceTree = "<group>"; };
 		E8D27F74A012141C5416BA17DFD0E590 /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
 		E9CA5B83064B4A54E9A7BE58A081A007 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA819CF9FD1A84A449553E2778DDD87B /* String+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Sources/String+Timepiece.swift"; sourceTree = "<group>"; };
+		EB69478694ABA79CC716946BE349E9AB /* Pods_try_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_try_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5DFBE8289AE192E42CD34DCD22885F /* UIImage+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Haneke.swift"; path = "Haneke/UIImage+Haneke.swift"; sourceTree = "<group>"; };
 		EEB0EB893D1C04E30FACBD73FBDC46BA /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		EFA004F52656FBDB30D6039053059BB3 /* Pods-trySwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-trySwift-resources.sh"; sourceTree = "<group>"; };
+		EFDCE6ABADE1319212679B9505738E5A /* Freddy-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Freddy-iOS.xcconfig"; sourceTree = "<group>"; };
 		F0EC669E3D9D717C4DE3D95027654A13 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
 		F0FCECB102E66EC44371E36EBC8F4458 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
-		F1D19614841DC2F9BC2E804A48EF4CFD /* Freddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Freddy-dummy.m"; sourceTree = "<group>"; };
 		F22F59CDA2734CF284EB479953BB9733 /* Timepiece-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Timepiece-watchOS.xcconfig"; path = "../Timepiece-watchOS/Timepiece-watchOS.xcconfig"; sourceTree = "<group>"; };
 		F32D4886587C08D76A04DF7790091B07 /* VTAcknowledgementsViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VTAcknowledgementsViewController-dummy.m"; sourceTree = "<group>"; };
 		F630624F38EBA022A809E82FE155EF06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7E4C34950DE7FAD6F860353AF5B0F33 /* Freddy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Freddy.xcconfig; sourceTree = "<group>"; };
 		FCCA3514F7D6AB729DD2F1BDF06DCABF /* HanekeSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanekeSwift-dummy.m"; sourceTree = "<group>"; };
 		FE2F0C1D94D8B68B45C0EA2133DCDB29 /* Fetch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = Haneke/Fetch.swift; sourceTree = "<group>"; };
 		FF1E72C2D4B5366FA9F851A90AF4C33D /* Toucan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Toucan.modulemap; sourceTree = "<group>"; };
+		FF2A9726F60FD1654F6608BE822862C1 /* JSONSubscripting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSubscripting.swift; path = Sources/JSONSubscripting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18223A3CF642CFAF500CE35EFFB7263B /* Frameworks */ = {
+		02D43549CBF10C2BF454AC2B636D717E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3441D586954C6A292E7F45CAB16E7EB9 /* Foundation.framework in Frameworks */,
+				B785C5C0B36CD1B4951C602B39546544 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E656D8627B456FD233AB5BC14367125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B1FEB241F340FD468B75F855470C9 /* Foundation.framework in Frameworks */,
+				B5F10C4866911A55DBB74AB39D722953 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,51 +441,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CC5E1715DB4798C573E54345D0539BD /* Frameworks */ = {
+		28082C579F0950AB1F122BE2A3C19506 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8055617EE612BF8AC713939482B4CB4 /* Foundation.framework in Frameworks */,
+				7AF4DE34491FC3C75ED8E60284FCFFBD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A30787E6163539795580CEBD61E2CD5 /* Frameworks */ = {
+		389A353D23A93DC506B3C20FFA98F22B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B86F02992AEE2A8A77378C420F05AA6 /* Foundation.framework in Frameworks */,
+				63ED6D9E5F41E8BF16E5E00DAA05C6C9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B3504322C4E5C15D6E56D4367E24A81 /* Frameworks */ = {
+		39699D3A717CAFA0BDED10BDF08C38AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7227CC929329DA85B4D741288B13B5D6 /* Foundation.framework in Frameworks */,
-				76BAF5F3489C11DA5E7948DD0152B8E0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C30C675F3989F20F189E1FAE3568180 /* Frameworks */ = {
+		546653F94F5D6C90DB8947372D768EC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C09A78942895C53AC77F996822113DA /* Foundation.framework in Frameworks */,
+				BFD88901644B20D54B02C50F2189154D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66B6579A9F7C3295C9F361DF066D6BC3 /* Frameworks */ = {
+		62A470B5E6F112330CB02BCA27DE81F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A25015B42BBC2EB5701AC6E6E9B4D238 /* Foundation.framework in Frameworks */,
+				A2078B6071FA489EFB0FAE0755E73785 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69BE611AE7E8CB6ADE794CE0FF02AF33 /* Frameworks */ = {
+		66078AB660E2F42FBCDDAD0B7C9C7759 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				029CAEC38B7FD62801E18671932D8AD1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,11 +496,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6B159AD5D8BE4475E2C228DEEBBF417 /* Frameworks */ = {
+		A808901459AB48C05861F4D9E399A0BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF0277020A1F082E45291E8F55B8F35 /* Foundation.framework in Frameworks */,
+				5050BB04BD2EABAADD337CDC721C05BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,11 +512,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE7E943507D33406AEFE6D3C51B1BB82 /* Frameworks */ = {
+		FDC33075927A49144FF3C19A95F247A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C731A7E93B3EE736C2D238AF4AAA843 /* Foundation.framework in Frameworks */,
+				5D07533B7A4113B2D45F9036EE9577FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +589,26 @@
 			path = "../Target Support Files/XLPagerTabStrip";
 			sourceTree = "<group>";
 		};
+		4398C5CE0FF9EBE29DA8DFF34A11BB8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D93D816F25F7E9E83D8DB2962E36684E /* Freddy-iOS.modulemap */,
+				EFDCE6ABADE1319212679B9505738E5A /* Freddy-iOS.xcconfig */,
+				6F25D7455226529A66DD7FC26449FFE1 /* Freddy-iOS-dummy.m */,
+				A04D695A18720B984FC761074406D879 /* Freddy-iOS-prefix.pch */,
+				DB442A06C64EE3EB37B3FA55F5C1C361 /* Freddy-iOS-umbrella.h */,
+				1D4C559D4188508D948D44083A58452C /* Freddy-watchOS.modulemap */,
+				91CB99FE1CF6B62984F8DD78A0F024C9 /* Freddy-watchOS.xcconfig */,
+				B319488A4568AF0983885D9B63236F2C /* Freddy-watchOS-dummy.m */,
+				5567E4BE161BD3B94E9592B9433B0506 /* Freddy-watchOS-prefix.pch */,
+				2EF4B3AD65D3E49E9B8844718429B96B /* Freddy-watchOS-umbrella.h */,
+				56CAD65E5914027B4E7EA30DC7F56158 /* Info.plist */,
+				D623EC1A25EA3EBD12ACB07D6E6116BA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Freddy-iOS";
+			sourceTree = "<group>";
+		};
 		43DC2B9C264A19BE1E3EE40227E722C0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -603,6 +658,24 @@
 			name = watchOS;
 			sourceTree = "<group>";
 		};
+		5BA966328F9F255D7A2B3C03031EED6C /* Freddy */ = {
+			isa = PBXGroup;
+			children = (
+				1D330C73B4311F87CC05456692A5715A /* Freddy.h */,
+				51A6B7409593248EA25BAB3E5D15C22A /* JSON.swift */,
+				5545DC8DF034AE7EA90A9732675658A2 /* JSONDecodable.swift */,
+				3D0A731DC73791CC1E5B9683FB48B3A2 /* JSONEncodable.swift */,
+				83002C349B581FF253EDA58635440486 /* JSONEncodingDetector.swift */,
+				CD22436BD6B9DF105F77D873144A2363 /* JSONLiteralConvertible.swift */,
+				6426A1ED18375658CD93A00568966463 /* JSONParser.swift */,
+				A038738B0ADAF343641CF3F75BA3113E /* JSONParsing.swift */,
+				CA848C02553E6F19CBE9BFF9B50236C6 /* JSONSerializing.swift */,
+				FF2A9726F60FD1654F6608BE822862C1 /* JSONSubscripting.swift */,
+				4398C5CE0FF9EBE29DA8DFF34A11BB8D /* Support Files */,
+			);
+			path = Freddy;
+			sourceTree = "<group>";
+		};
 		6121D09B41D9284B41DCE332BE8993D8 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -642,57 +715,6 @@
 			path = "../Target Support Files/VTAcknowledgementsViewController";
 			sourceTree = "<group>";
 		};
-		64D7975B50BDB04E3308A09BCE9E39B5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				25527577543E3138B40A6391A4830315 /* Freddy.modulemap */,
-				F7E4C34950DE7FAD6F860353AF5B0F33 /* Freddy.xcconfig */,
-				F1D19614841DC2F9BC2E804A48EF4CFD /* Freddy-dummy.m */,
-				7AC000DD8BE4E22207E463FCA73B0E2D /* Freddy-prefix.pch */,
-				6DA6CDFAA85EDE2A01F76B2774291AF0 /* Freddy-umbrella.h */,
-				DF35DFF7B49F69AA473EC783383EED46 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Freddy";
-			sourceTree = "<group>";
-		};
-		65BE65BA3DF32785B7B7988D9BE38726 /* Freddy */ = {
-			isa = PBXGroup;
-			children = (
-				C54EE863118E159C6EE01DB02BA40855 /* Freddy.h */,
-				90D243F900E25C295909F355A4E28FFA /* JSON.swift */,
-				4D5F9B7F9B4E5EFE1E7A9E5AFAE7597B /* JSONDecodable.swift */,
-				7127C33A7F86C4AD6904B3F44136F365 /* JSONEncodable.swift */,
-				939C25FAF1488A78572C1F60C8201F58 /* JSONEncodingDetector.swift */,
-				1419E7E4AA20930CB6685C1B3F58D266 /* JSONLiteralConvertible.swift */,
-				DD71FE6D0FAF22EE58E2EDEDA4DC7831 /* JSONParser.swift */,
-				5D24C1244617029A302BE387BD245E90 /* JSONParsing.swift */,
-				B4B2ADD108952220E3AFC5C38DF26061 /* JSONSerializing.swift */,
-				54950DC123FDB9EED5578EB6D16FF906 /* JSONSubscripting.swift */,
-				64D7975B50BDB04E3308A09BCE9E39B5 /* Support Files */,
-			);
-			path = Freddy;
-			sourceTree = "<group>";
-		};
-		6DC15BE71177826B69DC8979B8766623 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5F2281001D2A5F876BDCE482F3235442 /* Alamofire.framework */,
-				8C8E876D1DACAD81256769CB88A894E4 /* DynamicColor.framework */,
-				47883BF106C2D82F134D5EBB0BA9F60E /* Freddy.framework */,
-				022CA98EBFAC9CC49343E81F911FCC98 /* Haneke.framework */,
-				C595D93E14AECBE0AE34C7B2EC569243 /* Pods_try_Extension.framework */,
-				19E03E7AC6D581B54495514DBBEC0100 /* Pods_trySwift.framework */,
-				1DAC078C7E6E6923CB6FE51DAA9AA4D4 /* Timepiece.framework */,
-				E629CE467178C4C69A68C4CD5B9B951E /* Timepiece.framework */,
-				D107CF9F408BF9A7C259FC70D5AF6A2D /* Toucan.framework */,
-				87601FDD620B0D24F6E1BEF4B36751DC /* VTAcknowledgementsViewController.framework */,
-				33E762611FF8FFC0B5DB66E10950B400 /* XLPagerTabStrip.bundle */,
-				86270F8072769C5C3757193BAD3179A0 /* XLPagerTabStrip.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7914B611F0DA6E48B27DFA7211FDC8BD /* Timepiece */ = {
 			isa = PBXGroup;
 			children = (
@@ -715,7 +737,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				8B6D968432DA454CBE7BE3761821A977 /* Frameworks */,
 				CB8AEFE5BB279DAA8279A8F4FEDA4E07 /* Pods */,
-				6DC15BE71177826B69DC8979B8766623 /* Products */,
+				E799A09BBDB632C75535B42AE21DC9A4 /* Products */,
 				0D5C3B2E4DFE0190BF4CFA441C4D9AEC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -840,7 +862,7 @@
 			children = (
 				6121D09B41D9284B41DCE332BE8993D8 /* Alamofire */,
 				F8DEF7049DF7B565C7AB44A731B11531 /* DynamicColor */,
-				65BE65BA3DF32785B7B7988D9BE38726 /* Freddy */,
+				5BA966328F9F255D7A2B3C03031EED6C /* Freddy */,
 				C31C8353B8E25A55F67F2887E6B6A9FA /* HanekeSwift */,
 				7914B611F0DA6E48B27DFA7211FDC8BD /* Timepiece */,
 				F5A159C243E8A8DD5C98F6D506B098D0 /* Toucan */,
@@ -848,6 +870,26 @@
 				BE6A67F39B6A49AA75B66D3B563195FF /* XLPagerTabStrip */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E799A09BBDB632C75535B42AE21DC9A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6CB30DC5B4A7AF3316EB0ED159931A /* Alamofire.framework */,
+				9E85771F5ACDA34FD0004FB61982F2BC /* DynamicColor.framework */,
+				DE6E5DE74B467499BCE35FECDB7678AB /* Freddy.framework */,
+				DF29CF4F0F2F956B5EB50CC682F37D34 /* Freddy.framework */,
+				5EF88BF7BE41142BDC157FB24038E973 /* Haneke.framework */,
+				EB69478694ABA79CC716946BE349E9AB /* Pods_try_Extension.framework */,
+				1FD5E306B20D14B02A67579748D368A5 /* Pods_trySwift.framework */,
+				9E11B399D70B602566745625DC810F6E /* Timepiece.framework */,
+				A2009F3507BD0402EA89CE29AE189496 /* Timepiece.framework */,
+				3C83AA364480A4948209CB2676F923E4 /* Toucan.framework */,
+				7B8692ABD82E215171D59FB2946D5F65 /* VTAcknowledgementsViewController.framework */,
+				03933C50CDE4B6DF768E5699D3033D32 /* XLPagerTabStrip.bundle */,
+				32F31784AF101878C61346FA062D9CF4 /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		EBD2F06D0D63F9504E71B572354AA4BC /* VTAcknowledgementsViewController */ = {
@@ -889,6 +931,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0B2686156639A1B0832335CA772336E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1EBF38B5771607AE95AC311A468F03C /* Toucan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C64655B97B501711541511851F1C8EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -897,56 +947,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73EF4448C0527B921B5C92166295361D /* Headers */ = {
+		1BC28F20C85DB7CBC741CA7B60A77712 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				984231A684E834276DD272AA8D0922D9 /* VTAcknowledgement.h in Headers */,
-				39323628A9173BEE2A06F1E40ACFD609 /* VTAcknowledgementsParser.h in Headers */,
-				4846221CFB40FBC769B5358B6B6FF433 /* VTAcknowledgementsViewController-umbrella.h in Headers */,
-				EC32E246C18551BCF0A8D04DD5FF791D /* VTAcknowledgementsViewController.h in Headers */,
-				768A6F1FBF4DD1D7A445DA4F39B0E178 /* VTAcknowledgementViewController.h in Headers */,
+				A3F6B3AC6998D6458D1D4610C83B080E /* Timepiece-watchOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FBB71340FADD2AD55179DE26D067722 /* Headers */ = {
+		474F919F53A0A1991C728A9609696D1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCEAFCAC97BC6EF0B268E67E3007482 /* Toucan-umbrella.h in Headers */,
+				E59536C626F6A3C65318D21FE50B3911 /* Pods-trySwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80D48E5B8F121CA7C8FFF184A057FD25 /* Headers */ = {
+		A49CCFCB60A1592C58AF055B4CAC4104 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163C56ADBD329A426F87B0E722888D28 /* Freddy-umbrella.h in Headers */,
-				99A312A29811B785F8F35EEAB3D615AE /* Freddy.h in Headers */,
+				6603AE6A16DFA3C7659AFBF5878EF33B /* Freddy-watchOS-umbrella.h in Headers */,
+				B07CB92BF782ED76F614DD8CC2A8B533 /* Freddy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87767DEEE96C3A12B340EF296239E9FC /* Headers */ = {
+		ACB6718198F6685E9D1533D669D76AD7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BB44B1548E54E0E63A97AF3A4628F6 /* Timepiece-watchOS-umbrella.h in Headers */,
+				998404FE815A543B87B3DEE31ABDEED8 /* Timepiece-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C4C88FBE186263C2E929B9CB7551256 /* Headers */ = {
+		B92570C64CD16514678CEB43BA5C8E35 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B819EFED9A60EAAFB6D0BA7454B6DC5B /* Pods-try Extension-umbrella.h in Headers */,
+				4BE7D2FAA71B6E804C8FB1F795BF1395 /* Freddy-iOS-umbrella.h in Headers */,
+				BDFA99719BD4BEB6B8DBB263BAEC7551 /* Freddy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD8DDC7CCD19C2265DEC253C1F8B77B0 /* Headers */ = {
+		BFFAD9CF25F86B2444A63DAAFEE4AE2E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5214FD00104A476DE8B151D3D5F5D562 /* Pods-trySwift-umbrella.h in Headers */,
+				3C80C354AF594868DC329A5579D9F345 /* FXPageControl.h in Headers */,
+				F07025A7516AF9A28ED5A99075CCD8AA /* XLPagerTabStrip-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -958,6 +1006,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D683601AF28C80C0FE2D750308E44AED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD661D70743DDFC6ADEA948032B8E7 /* VTAcknowledgement.h in Headers */,
+				C28CFD60E96615DAF011FAE5DE7B4B54 /* VTAcknowledgementsParser.h in Headers */,
+				84425B29A1775B431092E6F827A39844 /* VTAcknowledgementsViewController-umbrella.h in Headers */,
+				3244A3CB68DBDFBDD6D1AF59D8C60C95 /* VTAcknowledgementsViewController.h in Headers */,
+				97C22DD0CA40CD6000BE967240BE667F /* VTAcknowledgementViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA296E39761245C9F3A8761D72BA26E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DCBAE40919F9457CC1ABE86B523F62 /* Pods-try Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -966,26 +1034,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F46C6899778CC98B714C84558C86A3AF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F06DDD482E1C79209E84CC6E95C01EB /* FXPageControl.h in Headers */,
-				E5AEBE59578EF72331BC547B46B71E87 /* XLPagerTabStrip-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F78DD3C92BDE1021AACC85F015D0B000 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1DD3C194C0C81A677D4DBC03BD2FC4A /* Timepiece-iOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		056DA32390D5BECCC38232B2ED0CB5ED /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85CEB63E1F6E998CDAC8C47E8B1453DE /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				AB30D22D66491EBF888C6C4B3F25A477 /* Sources */,
+				0E656D8627B456FD233AB5BC14367125 /* Frameworks */,
+				DFDD28198FD2909F9848B5C4F8A3AE2A /* Resources */,
+				BFFAD9CF25F86B2444A63DAAFEE4AE2E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB4F5FED474A5FF4A5055B255ED99508 /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = 32F31784AF101878C61346FA062D9CF4 /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		08F6A5AF8E89681F880EB03F167AACB7 /* DynamicColor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC4702B144C514B41D51E60E93CA52C5 /* Build configuration list for PBXNativeTarget "DynamicColor" */;
@@ -1000,41 +1070,7 @@
 			);
 			name = DynamicColor;
 			productName = DynamicColor;
-			productReference = 8C8E876D1DACAD81256769CB88A894E4 /* DynamicColor.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		0DB38520FE11FCFDD3DD5E187787598B /* XLPagerTabStrip-XLPagerTabStrip */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF42FD6F8D9E0446AB64D49F938C576F /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
-			buildPhases = (
-				01A268EB9B840B50D71F29CCB11A754C /* Sources */,
-				69BE611AE7E8CB6ADE794CE0FF02AF33 /* Frameworks */,
-				C2FCE4EBB0F4D81EBD70A8715CA7ADC2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "XLPagerTabStrip-XLPagerTabStrip";
-			productName = "XLPagerTabStrip-XLPagerTabStrip";
-			productReference = 33E762611FF8FFC0B5DB66E10950B400 /* XLPagerTabStrip.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		2A7C84251A158DB0978808A12B4D41E6 /* Toucan */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0ED2B8C7F1F4403DFE5C76B21F496D9D /* Build configuration list for PBXNativeTarget "Toucan" */;
-			buildPhases = (
-				2AC67F164454E401D766674C970C44B1 /* Sources */,
-				4C30C675F3989F20F189E1FAE3568180 /* Frameworks */,
-				7FBB71340FADD2AD55179DE26D067722 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Toucan;
-			productName = Toucan;
-			productReference = D107CF9F408BF9A7C259FC70D5AF6A2D /* Toucan.framework */;
+			productReference = 9E85771F5ACDA34FD0004FB61982F2BC /* DynamicColor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2C2B1953A91633859BF7AD238FF567A0 /* HanekeSwift */ = {
@@ -1051,16 +1087,58 @@
 			);
 			name = HanekeSwift;
 			productName = HanekeSwift;
-			productReference = 022CA98EBFAC9CC49343E81F911FCC98 /* Haneke.framework */;
+			productReference = 5EF88BF7BE41142BDC157FB24038E973 /* Haneke.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		67F82E1A874314EEDD9AD23A63EDCCAB /* Timepiece-iOS */ = {
+		4C3C78C817679A0048ADD05B0F643965 /* Pods-trySwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E39AA530CE93A9857F174BE8CF0DD056 /* Build configuration list for PBXNativeTarget "Timepiece-iOS" */;
+			buildConfigurationList = BB52B0AAA1542816F60C363BA9F88184 /* Build configuration list for PBXNativeTarget "Pods-trySwift" */;
 			buildPhases = (
-				91D906B8FEA56E00D5562CF9A60BED5C /* Sources */,
-				18223A3CF642CFAF500CE35EFFB7263B /* Frameworks */,
-				F78DD3C92BDE1021AACC85F015D0B000 /* Headers */,
+				AA731CDA4745FFCBA5DF61AE47307AE1 /* Sources */,
+				FDC33075927A49144FF3C19A95F247A8 /* Frameworks */,
+				474F919F53A0A1991C728A9609696D1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3186E31F39B21B435A0A62DF7683B3 /* PBXTargetDependency */,
+				D1067D7F6C862A81E8089A47FD423D83 /* PBXTargetDependency */,
+				5ED54DA67BDDAC2F4845B364D4CBF312 /* PBXTargetDependency */,
+				B698D05796BB3D2396E10A6592CA74FD /* PBXTargetDependency */,
+				D7D61B2ACFD2BE88C079C5CB196C70E3 /* PBXTargetDependency */,
+				0ED0A90B9FFCC772E37EEC9F5E324AE2 /* PBXTargetDependency */,
+				1F753770FE066CE904110A49DA354669 /* PBXTargetDependency */,
+				DF7670B708A827FED3F805DCAFB37697 /* PBXTargetDependency */,
+			);
+			name = "Pods-trySwift";
+			productName = "Pods-trySwift";
+			productReference = 1FD5E306B20D14B02A67579748D368A5 /* Pods_trySwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C4D29B664B81C6170AECBFB2FDBD43E /* Freddy-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3438198B47E91FA3D3CF60568EEAE818 /* Build configuration list for PBXNativeTarget "Freddy-iOS" */;
+			buildPhases = (
+				5131242303F46D9A90D430DDE8D4AB1C /* Sources */,
+				389A353D23A93DC506B3C20FFA98F22B /* Frameworks */,
+				B92570C64CD16514678CEB43BA5C8E35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Freddy-iOS";
+			productName = "Freddy-iOS";
+			productReference = DE6E5DE74B467499BCE35FECDB7678AB /* Freddy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		565D35CA8D43F9717E722EADF0879082 /* Timepiece-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FCCDFD3BFE57DBD40B8E64F5D358E4D /* Build configuration list for PBXNativeTarget "Timepiece-iOS" */;
+			buildPhases = (
+				F887DB632BE2EFEB563B175F25F17131 /* Sources */,
+				66078AB660E2F42FBCDDAD0B7C9C7759 /* Frameworks */,
+				ACB6718198F6685E9D1533D669D76AD7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1068,7 +1146,7 @@
 			);
 			name = "Timepiece-iOS";
 			productName = "Timepiece-iOS";
-			productReference = 1DAC078C7E6E6923CB6FE51DAA9AA4D4 /* Timepiece.framework */;
+			productReference = A2009F3507BD0402EA89CE29AE189496 /* Timepiece.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
@@ -1085,16 +1163,35 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5F2281001D2A5F876BDCE482F3235442 /* Alamofire.framework */;
+			productReference = AB6CB30DC5B4A7AF3316EB0ED159931A /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7B6E40B400C3FB5EE0731D2E536A8BC5 /* Timepiece-watchOS */ = {
+		7CEDDC924E11E5528A5285A84472870F /* Pods-try Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 563EAF0643E3F37BA2091AE594A6244C /* Build configuration list for PBXNativeTarget "Timepiece-watchOS" */;
+			buildConfigurationList = 267ACE3A394B42A07FE01901A626A4D2 /* Build configuration list for PBXNativeTarget "Pods-try Extension" */;
 			buildPhases = (
-				88742094E65393E75C957FA31C04313E /* Sources */,
-				66B6579A9F7C3295C9F361DF066D6BC3 /* Frameworks */,
-				87767DEEE96C3A12B340EF296239E9FC /* Headers */,
+				CD85DA93F0230BF35C2851B62857B534 /* Sources */,
+				A808901459AB48C05861F4D9E399A0BA /* Frameworks */,
+				EA296E39761245C9F3A8761D72BA26E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FA4DE8F138F6486BC649955394398FE /* PBXTargetDependency */,
+				D276FF8A529EB5AB18E96FBCA6C7C8E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-try Extension";
+			productName = "Pods-try Extension";
+			productReference = EB69478694ABA79CC716946BE349E9AB /* Pods_try_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A91624C883A0B8BE38073A052701CDCC /* Timepiece-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5067C7743F86B5419B9EF897A8EBAD19 /* Build configuration list for PBXNativeTarget "Timepiece-watchOS" */;
+			buildPhases = (
+				9D2142E95BD325BF182A962E73757CF9 /* Sources */,
+				546653F94F5D6C90DB8947372D768EC2 /* Frameworks */,
+				1BC28F20C85DB7CBC741CA7B60A77712 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1102,17 +1199,51 @@
 			);
 			name = "Timepiece-watchOS";
 			productName = "Timepiece-watchOS";
-			productReference = E629CE467178C4C69A68C4CD5B9B951E /* Timepiece.framework */;
+			productReference = 9E11B399D70B602566745625DC810F6E /* Timepiece.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9444368BFABBFDCE73593DF12C39DF12 /* VTAcknowledgementsViewController */ = {
+		B84F95BDB30C1941CA67F633B21AD386 /* Freddy-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD1CA012A6950B6EF2EEF4EBA1FF8CF4 /* Build configuration list for PBXNativeTarget "VTAcknowledgementsViewController" */;
+			buildConfigurationList = 5D7269893B81A91F47A78F9C3AB01792 /* Build configuration list for PBXNativeTarget "Freddy-watchOS" */;
 			buildPhases = (
-				447C3557DCE2B96D41827F438E7728C6 /* Sources */,
-				4A30787E6163539795580CEBD61E2CD5 /* Frameworks */,
-				73EF4448C0527B921B5C92166295361D /* Headers */,
-				3A0610E5B3099E6DDF3410C1B0203576 /* Resources */,
+				5BCE2E7768CAF7872C33CDD57CD39D4D /* Sources */,
+				02D43549CBF10C2BF454AC2B636D717E /* Frameworks */,
+				A49CCFCB60A1592C58AF055B4CAC4104 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Freddy-watchOS";
+			productName = "Freddy-watchOS";
+			productReference = DF29CF4F0F2F956B5EB50CC682F37D34 /* Freddy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFD3B4F205BFD07B811D8D4B61F7FB22 /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F242CA6D7471B0A7E3E0644BFCD23379 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				49F71596B7663FB9632D5BC472FF5DB0 /* Sources */,
+				39699D3A717CAFA0BDED10BDF08C38AA /* Frameworks */,
+				73D51646458B75A405FC0DC996EF3CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = 03933C50CDE4B6DF768E5699D3033D32 /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C6CE9FAAED6E2D7EAD2F550F0718D989 /* VTAcknowledgementsViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBE7D911F2851BB9937BD8426CEAEF9 /* Build configuration list for PBXNativeTarget "VTAcknowledgementsViewController" */;
+			buildPhases = (
+				618DCCE605F5CFB003643A8E8C4BD581 /* Sources */,
+				28082C579F0950AB1F122BE2A3C19506 /* Frameworks */,
+				D683601AF28C80C0FE2D750308E44AED /* Headers */,
+				0B71E17C004CE4FF05DE6C1784BFABBA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1120,86 +1251,24 @@
 			);
 			name = VTAcknowledgementsViewController;
 			productName = VTAcknowledgementsViewController;
-			productReference = 87601FDD620B0D24F6E1BEF4B36751DC /* VTAcknowledgementsViewController.framework */;
+			productReference = 7B8692ABD82E215171D59FB2946D5F65 /* VTAcknowledgementsViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AE88F157C01907732CFB79AF3F0FB294 /* Pods-trySwift */ = {
+		C84B78707EEF3C06E5E0E57F1BB96173 /* Toucan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25272B1261E03A2EC5E6EE5DBD379ADC /* Build configuration list for PBXNativeTarget "Pods-trySwift" */;
+			buildConfigurationList = 4D1F658DD1C3168689C6619AEDBD8FF3 /* Build configuration list for PBXNativeTarget "Toucan" */;
 			buildPhases = (
-				C57C053C022A4725AAF75127BD88C75C /* Sources */,
-				3CC5E1715DB4798C573E54345D0539BD /* Frameworks */,
-				AD8DDC7CCD19C2265DEC253C1F8B77B0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DC07DDBCC6C2D546B310CBEB974FBD57 /* PBXTargetDependency */,
-				83F5F7D3A2303F344F722F7B4C81E6A1 /* PBXTargetDependency */,
-				ED918D27AD3A059632FB75C90231BBEF /* PBXTargetDependency */,
-				EFFAAA3B91BDB9FB6A4732C6C8984E9F /* PBXTargetDependency */,
-				082B8965A410969BB19F2F1C447160BE /* PBXTargetDependency */,
-				5F6CE29262265567E00C29A2A8C2ECC2 /* PBXTargetDependency */,
-				A67C8E95C92FBF8960A20FAFABD41C3F /* PBXTargetDependency */,
-				25967310CAB2F5933643727CB6BFA8C0 /* PBXTargetDependency */,
-			);
-			name = "Pods-trySwift";
-			productName = "Pods-trySwift";
-			productReference = 19E03E7AC6D581B54495514DBBEC0100 /* Pods_trySwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C873224BD3884FD5C71C83231F5475BC /* Pods-try Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 837E46E7832BADFA4613D330DC3D4C22 /* Build configuration list for PBXNativeTarget "Pods-try Extension" */;
-			buildPhases = (
-				358FA07DCE9536306EA8F5BACA4F832A /* Sources */,
-				A6B159AD5D8BE4475E2C228DEEBBF417 /* Frameworks */,
-				8C4C88FBE186263C2E929B9CB7551256 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E903884A31BF296859191670DE766566 /* PBXTargetDependency */,
-			);
-			name = "Pods-try Extension";
-			productName = "Pods-try Extension";
-			productReference = C595D93E14AECBE0AE34C7B2EC569243 /* Pods_try_Extension.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D675C5BE67C87F157385F3F4D987D220 /* XLPagerTabStrip */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0582F1ECE5BF8131FB42AF52E5CE037A /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
-			buildPhases = (
-				8C3CE71C652AAB1EF15621B3BAE9329C /* Sources */,
-				4B3504322C4E5C15D6E56D4367E24A81 /* Frameworks */,
-				3864C436422B0CEBDBF0C0C0BC17A128 /* Resources */,
-				F46C6899778CC98B714C84558C86A3AF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9AE127C8581216BCCC2674E9893C48E9 /* PBXTargetDependency */,
-			);
-			name = XLPagerTabStrip;
-			productName = XLPagerTabStrip;
-			productReference = 86270F8072769C5C3757193BAD3179A0 /* XLPagerTabStrip.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EEE4BFE3AC283ECEA2CF60A4C399216A /* Freddy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02922C482DB90A4A5B73DC03C370C8BD /* Build configuration list for PBXNativeTarget "Freddy" */;
-			buildPhases = (
-				98785E9CD4BE549E38F1FC0B92EBBB8E /* Sources */,
-				FE7E943507D33406AEFE6D3C51B1BB82 /* Frameworks */,
-				80D48E5B8F121CA7C8FFF184A057FD25 /* Headers */,
+				481468B43D16E33D4C9B315F21C0652B /* Sources */,
+				62A470B5E6F112330CB02BCA27DE81F2 /* Frameworks */,
+				0B2686156639A1B0832335CA772336E7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Freddy;
-			productName = Freddy;
-			productReference = 47883BF106C2D82F134D5EBB0BA9F60E /* Freddy.framework */;
+			name = Toucan;
+			productName = Toucan;
+			productReference = 3C83AA364480A4948209CB2676F923E4 /* Toucan.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1219,142 +1288,114 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6DC15BE71177826B69DC8979B8766623 /* Products */;
+			productRefGroup = E799A09BBDB632C75535B42AE21DC9A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
 				08F6A5AF8E89681F880EB03F167AACB7 /* DynamicColor */,
-				EEE4BFE3AC283ECEA2CF60A4C399216A /* Freddy */,
+				4C4D29B664B81C6170AECBFB2FDBD43E /* Freddy-iOS */,
+				B84F95BDB30C1941CA67F633B21AD386 /* Freddy-watchOS */,
 				2C2B1953A91633859BF7AD238FF567A0 /* HanekeSwift */,
-				C873224BD3884FD5C71C83231F5475BC /* Pods-try Extension */,
-				AE88F157C01907732CFB79AF3F0FB294 /* Pods-trySwift */,
-				67F82E1A874314EEDD9AD23A63EDCCAB /* Timepiece-iOS */,
-				7B6E40B400C3FB5EE0731D2E536A8BC5 /* Timepiece-watchOS */,
-				2A7C84251A158DB0978808A12B4D41E6 /* Toucan */,
-				9444368BFABBFDCE73593DF12C39DF12 /* VTAcknowledgementsViewController */,
-				D675C5BE67C87F157385F3F4D987D220 /* XLPagerTabStrip */,
-				0DB38520FE11FCFDD3DD5E187787598B /* XLPagerTabStrip-XLPagerTabStrip */,
+				7CEDDC924E11E5528A5285A84472870F /* Pods-try Extension */,
+				4C3C78C817679A0048ADD05B0F643965 /* Pods-trySwift */,
+				565D35CA8D43F9717E722EADF0879082 /* Timepiece-iOS */,
+				A91624C883A0B8BE38073A052701CDCC /* Timepiece-watchOS */,
+				C84B78707EEF3C06E5E0E57F1BB96173 /* Toucan */,
+				C6CE9FAAED6E2D7EAD2F550F0718D989 /* VTAcknowledgementsViewController */,
+				056DA32390D5BECCC38232B2ED0CB5ED /* XLPagerTabStrip */,
+				BFD3B4F205BFD07B811D8D4B61F7FB22 /* XLPagerTabStrip-XLPagerTabStrip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3864C436422B0CEBDBF0C0C0BC17A128 /* Resources */ = {
+		0B71E17C004CE4FF05DE6C1784BFABBA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				852DCE9329B3F83492E536C7880DE49D /* XLPagerTabStrip.bundle in Resources */,
+				B77453C8ACD88124585370B2144FD4A6 /* VTAcknowledgementsViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A0610E5B3099E6DDF3410C1B0203576 /* Resources */ = {
+		73D51646458B75A405FC0DC996EF3CC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66019A6C845A03746A44128E8E729743 /* VTAcknowledgementsViewController.bundle in Resources */,
+				00B38B025B7B7CB5C1BF758DA81BFB99 /* ButtonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2FCE4EBB0F4D81EBD70A8715CA7ADC2 /* Resources */ = {
+		DFDD28198FD2909F9848B5C4F8A3AE2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA42755D94C934E058B409FBDB32752 /* ButtonCell.xib in Resources */,
+				E88D0B149F1E5849A420F3B39439C40F /* XLPagerTabStrip.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01A268EB9B840B50D71F29CCB11A754C /* Sources */ = {
+		481468B43D16E33D4C9B315F21C0652B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E87093F3E7A0CE020E8D862BDF4E241 /* Toucan-dummy.m in Sources */,
+				8F48FBEFE9DBED4E292E99E0B6E6081D /* Toucan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F71596B7663FB9632D5BC472FF5DB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AC67F164454E401D766674C970C44B1 /* Sources */ = {
+		5131242303F46D9A90D430DDE8D4AB1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AFC7AD0283B1723D1CABFAD00B2CF44 /* Toucan-dummy.m in Sources */,
-				F923547C0F24FABC65AEAFD5D1AB2791 /* Toucan.swift in Sources */,
+				894F9FEB7AA253568C873DFF090D7B0E /* Freddy-iOS-dummy.m in Sources */,
+				E5A6EC182EDFD3D45DB227D054C30743 /* JSON.swift in Sources */,
+				00FC1A93A8CD1183FA7F87320A8C4170 /* JSONDecodable.swift in Sources */,
+				E41C49EC68EC6E6453EF8909281408B0 /* JSONEncodable.swift in Sources */,
+				B2F67D525EA7EA1C7620952046C3ED6E /* JSONEncodingDetector.swift in Sources */,
+				92F7B33FD2F8214288A46E3655DB3AA0 /* JSONLiteralConvertible.swift in Sources */,
+				14B6FE8119F4AC2780B399A63BAB04E3 /* JSONParser.swift in Sources */,
+				D5E8FA3CC15F6B57BA8C8D6AC7A63246 /* JSONParsing.swift in Sources */,
+				5B644F54DCDF860D6210C2413E57CB92 /* JSONSerializing.swift in Sources */,
+				6242567B427B57EC0D1EFF34A6F46287 /* JSONSubscripting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		358FA07DCE9536306EA8F5BACA4F832A /* Sources */ = {
+		5BCE2E7768CAF7872C33CDD57CD39D4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B1F7B97E7B1F8D81756BC2D68714CC /* Pods-try Extension-dummy.m in Sources */,
+				D91A3E70162B66F8C34CC9532E6D0D17 /* Freddy-watchOS-dummy.m in Sources */,
+				449EFEE94B75516FABB78F728FB12106 /* JSON.swift in Sources */,
+				15EFC93F0A34D002CA4278ED8FFBF8C0 /* JSONDecodable.swift in Sources */,
+				246848737C7183F4C22BBD3F9100FA4F /* JSONEncodable.swift in Sources */,
+				32A9BBA91E97271E9587F7AFD0AB4686 /* JSONEncodingDetector.swift in Sources */,
+				160AB4D1BA28FF3BC3FF81F9868EC28B /* JSONLiteralConvertible.swift in Sources */,
+				01758A13836754ABAFC15377BC05E7E4 /* JSONParser.swift in Sources */,
+				EF2AD0CE0C177B8B3FC0A826E580FAD9 /* JSONParsing.swift in Sources */,
+				83C878962DF7516CD00AF1ECC3C70AE5 /* JSONSerializing.swift in Sources */,
+				C4BCA868B61B97D026E173C2BB429434 /* JSONSubscripting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		447C3557DCE2B96D41827F438E7728C6 /* Sources */ = {
+		618DCCE605F5CFB003643A8E8C4BD581 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				865057C55D0ACD07D856B9AA7DEE94A0 /* VTAcknowledgement.m in Sources */,
-				FE93B36D8BD73FB0C7BBEE21CA9B4A64 /* VTAcknowledgementsParser.m in Sources */,
-				E77001011B0459E3DE9B5EC9B3BBB1D6 /* VTAcknowledgementsViewController-dummy.m in Sources */,
-				2C3A54B39289091385FEC27F97FD9612 /* VTAcknowledgementsViewController.m in Sources */,
-				C462878DFB95817E60D3E0D3DB154640 /* VTAcknowledgementViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88742094E65393E75C957FA31C04313E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3829701AC6B686E697C47D7E39CB71F7 /* Duration.swift in Sources */,
-				7BA50E7766745BB4AF92B863EEA2512F /* Int+Timepiece.swift in Sources */,
-				D30BF8BCBE141E5649755AF31F111594 /* NSCalendar+Timepiece.swift in Sources */,
-				8D1FDC1B18DF0184605A3321A257CFA6 /* NSCalendarUnit+Timepiece.swift in Sources */,
-				EE3959D6DACDB98E95C761CEA33E04A2 /* NSDate+Timepiece.swift in Sources */,
-				4845004740B5BA147A15EAADD82619A6 /* NSDateComponents+Timepiece.swift in Sources */,
-				E25FE1601113BA8CF2E87547AE16FDDC /* NSTimeInterval+Timepiece.swift in Sources */,
-				55349DF6E063B2E5B8E0BCC6A8D20050 /* String+Timepiece.swift in Sources */,
-				2A7B6D3C33F50441969BB999F6F6CDD5 /* Timepiece-watchOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C3CE71C652AAB1EF15621B3BAE9329C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDE6F4EFDF6A59CCAAF78D917502B00E /* BarPagerTabStripViewController.swift in Sources */,
-				97813CA8CB89DAFD930C27F4AF3F5BEE /* BarView.swift in Sources */,
-				DBAECB5CEBA38F82105DF9177E1EFB61 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
-				3E32C4E83FE523179A528729B47B07FC /* ButtonBarPagerTabStripViewController.swift in Sources */,
-				B992EFF6BC7CA34F3C306ED6353B9636 /* ButtonBarView.swift in Sources */,
-				31E98ACF8C46A1E0F05F0238B7E9529A /* ButtonBarViewCell.swift in Sources */,
-				DED985118A715A0980BA8CFE6412A266 /* ButtonCell.xib in Sources */,
-				FA7809050DFE1645B80CD315B7A1366C /* FXPageControl.m in Sources */,
-				6BF6FDF2F0023D5A07956FFBFFEEF97B /* IndicatorInfo.swift in Sources */,
-				97F744DDAD86B9EFF0F3C15E1C033237 /* PagerTabStripBehaviour.swift in Sources */,
-				AD4F8E5E41ABF61BBE365DC55C8BB30D /* PagerTabStripError.swift in Sources */,
-				DCC18842352BAAA8CE771A0B92AA7C4C /* PagerTabStripViewController.swift in Sources */,
-				930C83E53FD1EFE058B49BEC8B4D40DD /* SegmentedPagerTabStripViewController.swift in Sources */,
-				E09AAE6F054990ED86E632CCCA960010 /* SwipeDirection.swift in Sources */,
-				7E09E2B73A1C1DE18C4F266BEDA874A6 /* TwitterPagerTabStripViewController.swift in Sources */,
-				B5E18CD61714B39443C7DA2DA5832E4B /* XLPagerTabStrip-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91D906B8FEA56E00D5562CF9A60BED5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				547600CE58C79540FA096EDFB0D835EB /* Duration.swift in Sources */,
-				3160F4952F3466B5BD7400BBF530A235 /* Int+Timepiece.swift in Sources */,
-				2443B5523453B1364FCE544C2C64BA80 /* NSCalendar+Timepiece.swift in Sources */,
-				DE166EF0DC1573898828B1EED953358C /* NSCalendarUnit+Timepiece.swift in Sources */,
-				E18CEFBDCCBD74A9F9F72C14C0DDA564 /* NSDate+Timepiece.swift in Sources */,
-				57D728AADF102495787AD1BA00E06126 /* NSDateComponents+Timepiece.swift in Sources */,
-				A811A882B86236114557ABAA7FDC1C3F /* NSTimeInterval+Timepiece.swift in Sources */,
-				5524B5816D41F5A570E50D134C84EFE8 /* String+Timepiece.swift in Sources */,
-				42FA2F08668ED5C47FC22D9DED27BB6A /* Timepiece-iOS-dummy.m in Sources */,
+				AABC52E3676EA3B9E281B4B55435B688 /* VTAcknowledgement.m in Sources */,
+				C744C72A5F3AAE8873BCCF16A4B7B75F /* VTAcknowledgementsParser.m in Sources */,
+				317313D696389F8767B4E0F07AF108B5 /* VTAcknowledgementsViewController-dummy.m in Sources */,
+				9C01264A41D3F5D514FD7BAB99E7014F /* VTAcknowledgementsViewController.m in Sources */,
+				33A4D01A37A5334B21FA583505C46C8F /* VTAcknowledgementViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1383,28 +1424,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98785E9CD4BE549E38F1FC0B92EBBB8E /* Sources */ = {
+		9D2142E95BD325BF182A962E73757CF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB24A67301DAC22E84605827EDDBABB /* Freddy-dummy.m in Sources */,
-				CC7F5D04E26E5E2117CBABA597225B59 /* JSON.swift in Sources */,
-				C0F3756C4C77EC31F50AF6E1F794B042 /* JSONDecodable.swift in Sources */,
-				E597971E2E9FC8DAE78D697CBD10046D /* JSONEncodable.swift in Sources */,
-				0B4F44A121372FBF6E435CBE374E1627 /* JSONEncodingDetector.swift in Sources */,
-				9DDD7E9CEA5A44B0BD55E0EAE62BE7EC /* JSONLiteralConvertible.swift in Sources */,
-				700BDCB998A8BB5B1CEC2DD2D2D5911F /* JSONParser.swift in Sources */,
-				4476EEDB89BD2BBE269BA25D9D6869BA /* JSONParsing.swift in Sources */,
-				6400C65D7B17C5AF90708D0F8F6FCB63 /* JSONSerializing.swift in Sources */,
-				95C9F7D166D041482D8D330988C3A389 /* JSONSubscripting.swift in Sources */,
+				022D1C5E782FA6258126DDFDAB0E62CE /* Duration.swift in Sources */,
+				7AED5C411BD1B445BA5164362438D04F /* Int+Timepiece.swift in Sources */,
+				0D360AD1AF643AEFC84E2ADB9503F7EB /* NSCalendar+Timepiece.swift in Sources */,
+				D2B7ED401F1EC8B1F7672791CEF21A3B /* NSCalendarUnit+Timepiece.swift in Sources */,
+				4D4ADB86F2F80B99F274A46B235E62AA /* NSDate+Timepiece.swift in Sources */,
+				C422DF8807BE33ECFA077400495BAFA0 /* NSDateComponents+Timepiece.swift in Sources */,
+				DACD511C71F1B5697AC7D05FC093403D /* NSTimeInterval+Timepiece.swift in Sources */,
+				2FB685BD7DD1286B4A321E5A236297A7 /* String+Timepiece.swift in Sources */,
+				BA400BDF712D4E342C17E0703BB9D6D6 /* Timepiece-watchOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C57C053C022A4725AAF75127BD88C75C /* Sources */ = {
+		AA731CDA4745FFCBA5DF61AE47307AE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B945671C36F1B537957E91BA3785B6 /* Pods-trySwift-dummy.m in Sources */,
+				142FD85341D555C1DCD50AFBB405B9C6 /* Pods-trySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB30D22D66491EBF888C6C4B3F25A477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F3DBBCAD97B9420DAA37AE19E3DD76 /* BarPagerTabStripViewController.swift in Sources */,
+				2FE5881D133F1C5F03415633DB6F6FD2 /* BarView.swift in Sources */,
+				7847DAEC55215EAA47F250026749A361 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				11AD44FCFBF4DB6EA2C9B9C470BC4D09 /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				B09D631C6286E3B3A0F593C6AEDD1C59 /* ButtonBarView.swift in Sources */,
+				FF078172A2B09B5106058CA1A1305408 /* ButtonBarViewCell.swift in Sources */,
+				08B5D917D2FA2E5D8DA65389E81C9D18 /* ButtonCell.xib in Sources */,
+				8CAC22E976B67989110331FE4904FD1D /* FXPageControl.m in Sources */,
+				C7EDD401EAB7FB9A0405ADF99E39E029 /* IndicatorInfo.swift in Sources */,
+				F960F2E5D72C50215C9AF11E4CBA293F /* PagerTabStripBehaviour.swift in Sources */,
+				A52FF475170305CF61DB3F4F43736D9A /* PagerTabStripError.swift in Sources */,
+				CCF448A29BF9C8B735763DFA42620251 /* PagerTabStripViewController.swift in Sources */,
+				012B2141CFE43ABAE57209BEA1226F40 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				870F01EB2992120A75158972AAC3C797 /* SwipeDirection.swift in Sources */,
+				A8BFF8581AD9CB5A4849AAA424E54298 /* TwitterPagerTabStripViewController.swift in Sources */,
+				7822B5BF0944931F981127A2FB7F9DB2 /* XLPagerTabStrip-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1415,6 +1478,14 @@
 				DDAE2730611AEF6250382CE67A9AD99A /* DynamicColor-dummy.m in Sources */,
 				62E29425E2735EDFB2FEB127813F4D33 /* DynamicColor.swift in Sources */,
 				560643B27617038512AA64E271DD78C3 /* HSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD85DA93F0230BF35C2851B62857B534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D70EB9ED4DC4A477FD44079EADEE5B /* Pods-try Extension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1446,75 +1517,127 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F887DB632BE2EFEB563B175F25F17131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D72DA93BD7AAF87CB819101BC03FE96 /* Duration.swift in Sources */,
+				3EE8CFE42B503DE24196455EE425825A /* Int+Timepiece.swift in Sources */,
+				B1B5D999F3D3DC0C9FFA98C592A3DE97 /* NSCalendar+Timepiece.swift in Sources */,
+				B4589A0CD486A68B23A9E597E8620907 /* NSCalendarUnit+Timepiece.swift in Sources */,
+				0F4D20A645EA95F223C1A76C2AB3A553 /* NSDate+Timepiece.swift in Sources */,
+				C6915662F36D27B6A156F4C2535F79D1 /* NSDateComponents+Timepiece.swift in Sources */,
+				43C7921A1E89355BD5BCD1FA32E3C9F5 /* NSTimeInterval+Timepiece.swift in Sources */,
+				9F880AFFA126B12CBFF8008117BE0264 /* String+Timepiece.swift in Sources */,
+				42B8710595044249727FE382C3B1B940 /* Timepiece-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		082B8965A410969BB19F2F1C447160BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Timepiece-iOS";
-			target = 67F82E1A874314EEDD9AD23A63EDCCAB /* Timepiece-iOS */;
-			targetProxy = 63A40EF408840FFF9F624BD0F6BB37D8 /* PBXContainerItemProxy */;
-		};
-		25967310CAB2F5933643727CB6BFA8C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XLPagerTabStrip;
-			target = D675C5BE67C87F157385F3F4D987D220 /* XLPagerTabStrip */;
-			targetProxy = A2A5D5EA36D61909A5C459E1CA4F7068 /* PBXContainerItemProxy */;
-		};
-		5F6CE29262265567E00C29A2A8C2ECC2 /* PBXTargetDependency */ = {
+		0ED0A90B9FFCC772E37EEC9F5E324AE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Toucan;
-			target = 2A7C84251A158DB0978808A12B4D41E6 /* Toucan */;
-			targetProxy = 88D03248975A2812671C6B8A557847A3 /* PBXContainerItemProxy */;
+			target = C84B78707EEF3C06E5E0E57F1BB96173 /* Toucan */;
+			targetProxy = E42A39305AEC7EAA69BCC73073E79B64 /* PBXContainerItemProxy */;
 		};
-		83F5F7D3A2303F344F722F7B4C81E6A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DynamicColor;
-			target = 08F6A5AF8E89681F880EB03F167AACB7 /* DynamicColor */;
-			targetProxy = D65345867161F6C9A837F12124D58C39 /* PBXContainerItemProxy */;
-		};
-		9AE127C8581216BCCC2674E9893C48E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "XLPagerTabStrip-XLPagerTabStrip";
-			target = 0DB38520FE11FCFDD3DD5E187787598B /* XLPagerTabStrip-XLPagerTabStrip */;
-			targetProxy = 4E3959F221F63422428EADBC247E1321 /* PBXContainerItemProxy */;
-		};
-		A67C8E95C92FBF8960A20FAFABD41C3F /* PBXTargetDependency */ = {
+		1F753770FE066CE904110A49DA354669 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VTAcknowledgementsViewController;
-			target = 9444368BFABBFDCE73593DF12C39DF12 /* VTAcknowledgementsViewController */;
-			targetProxy = 7AFA2AF01092FC7955156F083D6D041F /* PBXContainerItemProxy */;
+			target = C6CE9FAAED6E2D7EAD2F550F0718D989 /* VTAcknowledgementsViewController */;
+			targetProxy = BA563E960E5AF0D0E99F7E73EFB142CF /* PBXContainerItemProxy */;
 		};
-		DC07DDBCC6C2D546B310CBEB974FBD57 /* PBXTargetDependency */ = {
+		5ED54DA67BDDAC2F4845B364D4CBF312 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = E4C61E53AE3B987068855B6565AAF208 /* PBXContainerItemProxy */;
+			name = "Freddy-iOS";
+			target = 4C4D29B664B81C6170AECBFB2FDBD43E /* Freddy-iOS */;
+			targetProxy = ABF4E7E884A7C6349E9B1291B782E8B7 /* PBXContainerItemProxy */;
 		};
-		E903884A31BF296859191670DE766566 /* PBXTargetDependency */ = {
+		7FA4DE8F138F6486BC649955394398FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Timepiece-watchOS";
-			target = 7B6E40B400C3FB5EE0731D2E536A8BC5 /* Timepiece-watchOS */;
-			targetProxy = 2A77B7F88CF895277E054D431A2AA9E2 /* PBXContainerItemProxy */;
+			name = "Freddy-watchOS";
+			target = B84F95BDB30C1941CA67F633B21AD386 /* Freddy-watchOS */;
+			targetProxy = E024E9C0F1D0C8E534AE3192EDADF05E /* PBXContainerItemProxy */;
 		};
-		ED918D27AD3A059632FB75C90231BBEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Freddy;
-			target = EEE4BFE3AC283ECEA2CF60A4C399216A /* Freddy */;
-			targetProxy = 20801A27452E70C1C4FF9FBA0EADD326 /* PBXContainerItemProxy */;
-		};
-		EFFAAA3B91BDB9FB6A4732C6C8984E9F /* PBXTargetDependency */ = {
+		B698D05796BB3D2396E10A6592CA74FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HanekeSwift;
 			target = 2C2B1953A91633859BF7AD238FF567A0 /* HanekeSwift */;
-			targetProxy = F55739A11A0A155930B60B5BF2440D76 /* PBXContainerItemProxy */;
+			targetProxy = 9D4F19D8F6B3960FCD4269C3BEA1978E /* PBXContainerItemProxy */;
+		};
+		BB4F5FED474A5FF4A5055B255ED99508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = BFD3B4F205BFD07B811D8D4B61F7FB22 /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 03DA195D8658ACF6D524C1C6656D428A /* PBXContainerItemProxy */;
+		};
+		D1067D7F6C862A81E8089A47FD423D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicColor;
+			target = 08F6A5AF8E89681F880EB03F167AACB7 /* DynamicColor */;
+			targetProxy = 7575C10511E78B1F11B582AB7A05F749 /* PBXContainerItemProxy */;
+		};
+		D276FF8A529EB5AB18E96FBCA6C7C8E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Timepiece-watchOS";
+			target = A91624C883A0B8BE38073A052701CDCC /* Timepiece-watchOS */;
+			targetProxy = EE281A627F7773107498BA79AD1B2703 /* PBXContainerItemProxy */;
+		};
+		D7D61B2ACFD2BE88C079C5CB196C70E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Timepiece-iOS";
+			target = 565D35CA8D43F9717E722EADF0879082 /* Timepiece-iOS */;
+			targetProxy = E3AAD7533D6AD24116C7EA54513EF5AF /* PBXContainerItemProxy */;
+		};
+		DF7670B708A827FED3F805DCAFB37697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = 056DA32390D5BECCC38232B2ED0CB5ED /* XLPagerTabStrip */;
+			targetProxy = 9B54A4E615D00F1ED23EE61E1D3D3445 /* PBXContainerItemProxy */;
+		};
+		EA3186E31F39B21B435A0A62DF7683B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = C498DD39BEC516B29A9831CE73DD29C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		083D9E228E114C964C937C7C475CF76C /* Debug */ = {
+		1E7AACA36A01FE717032677E85716D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A15594ECC0A81466DD50381C5ADE894 /* Timepiece-iOS.xcconfig */;
+			baseConfigurationReference = 91CB99FE1CF6B62984F8DD78A0F024C9 /* Freddy-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Freddy-watchOS/Freddy-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Freddy-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Freddy-watchOS/Freddy-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Freddy;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		234391CE5E38F7A69FB7568EE9C1A52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84725F1B72E63F2AB81CB251F93710D8 /* Toucan.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1525,14 +1648,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Timepiece-iOS/Timepiece-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Timepiece-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Toucan/Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toucan/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Timepiece-iOS/Timepiece-iOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Toucan/Toucan.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Timepiece;
+				PRODUCT_NAME = Toucan;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1542,99 +1665,34 @@
 			};
 			name = Debug;
 		};
-		1529CF4BF002FA9ECE6E15CECCAB633A /* Debug */ = {
+		2F21DE9C1FE58320DAF3E6A7C1FF9555 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7E4C34950DE7FAD6F860353AF5B0F33 /* Freddy.xcconfig */;
+			baseConfigurationReference = EFDCE6ABADE1319212679B9505738E5A /* Freddy-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Freddy/Freddy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Freddy/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Freddy-iOS/Freddy-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Freddy-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Freddy/Freddy.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Freddy-iOS/Freddy-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Freddy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		2622C6B86F99BF035B514E4E4377D4C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F22F59CDA2734CF284EB479953BB9733 /* Timepiece-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Timepiece-watchOS/Timepiece-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Timepiece-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Timepiece-watchOS/Timepiece-watchOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Timepiece;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		29A01FFAF8EEC00EECBA3E21585CDD51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 429B58384EDFB74B23774A4B7D9ADEEF /* Pods-try Extension.debug.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-try Extension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-try Extension/Pods-try Extension.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_try_Extension;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
+			name = Release;
 		};
 		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1708,11 +1766,11 @@
 			};
 			name = Debug;
 		};
-		4E5B2D9271B08B02AE1BA10B3F52EBC3 /* Release */ = {
+		3D63A0C6E059D9F662A1F512C811A19C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E81366ED29EA6A7796E04BC31F32E9FE /* VTAcknowledgementsViewController.xcconfig */;
+			baseConfigurationReference = F22F59CDA2734CF284EB479953BB9733 /* Timepiece-watchOS.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1721,19 +1779,19 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VTAcknowledgementsViewController/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Timepiece-watchOS/Timepiece-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Timepiece-watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Timepiece-watchOS/Timepiece-watchOS.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = VTAcknowledgementsViewController;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = Timepiece;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1767,13 +1825,13 @@
 			};
 			name = Debug;
 		};
-		52C4B49CAC2C18E0A6233DBEAE60BEA8 /* Release */ = {
+		4EEDF436A513614EB07A49A9AB7281D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A15594ECC0A81466DD50381C5ADE894 /* Timepiece-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1786,21 +1844,68 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Timepiece-iOS/Timepiece-iOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Timepiece;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A569B5F437D652CF65E378D6B2B343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061E9A967D3102BD462EBF9F96D102A7 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		59F09CA7C3B76EE853641E5B67D6006F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81366ED29EA6A7796E04BC31F32E9FE /* VTAcknowledgementsViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VTAcknowledgementsViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VTAcknowledgementsViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		5B25DB494F0BDDFD874FB34965FD4695 /* Release */ = {
+		5A88342DD89AF39323FB3C24A7714F92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F22F59CDA2734CF284EB479953BB9733 /* Timepiece-watchOS.xcconfig */;
+			baseConfigurationReference = 061E9A967D3102BD462EBF9F96D102A7 /* XLPagerTabStrip.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1809,19 +1914,19 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Timepiece-watchOS/Timepiece-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Timepiece-watchOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Timepiece-watchOS/Timepiece-watchOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Timepiece;
-				SDKROOT = watchos;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -1855,20 +1960,33 @@
 			};
 			name = Debug;
 		};
-		6FDBB963126129D5045312F19608BEA5 /* Debug */ = {
+		66A063335D80EA883BEA60CC5A6DC065 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 061E9A967D3102BD462EBF9F96D102A7 /* XLPagerTabStrip.xcconfig */;
+			baseConfigurationReference = EFDCE6ABADE1319212679B9505738E5A /* Freddy-iOS.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Freddy-iOS/Freddy-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Freddy-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = XLPagerTabStrip;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Freddy-iOS/Freddy-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Freddy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1902,9 +2020,9 @@
 			};
 			name = Debug;
 		};
-		758BCAAF6A5E859C9D4C25BE1D2F5CED /* Release */ = {
+		859B277ED263992EF70B272A9AA6EDE1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7E4C34950DE7FAD6F860353AF5B0F33 /* Freddy.xcconfig */;
+			baseConfigurationReference = 53B768FDCCD428FE80E407F6CE82620A /* Pods-trySwift.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1915,14 +2033,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Freddy/Freddy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Freddy/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-trySwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Freddy/Freddy.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-trySwift/Pods-trySwift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Freddy;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_trySwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1930,35 +2052,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		7FF7AF91832663AA647F26BE7A3FB1B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E81366ED29EA6A7796E04BC31F32E9FE /* VTAcknowledgementsViewController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VTAcknowledgementsViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = VTAcknowledgementsViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		877BD561A9E0EF6440EBABA9B63673FD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1981,6 +2074,65 @@
 				MODULEMAP_FILE = "Target Support Files/DynamicColor/DynamicColor.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = DynamicColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8888DE50FE9E6F471DACDE29970B0C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22F59CDA2734CF284EB479953BB9733 /* Timepiece-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Timepiece-watchOS/Timepiece-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Timepiece-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Timepiece-watchOS/Timepiece-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Timepiece;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		8A0E9B27822FD88B9264C55EC017D443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81366ED29EA6A7796E04BC31F32E9FE /* VTAcknowledgementsViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VTAcknowledgementsViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VTAcknowledgementsViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2028,9 +2180,42 @@
 			};
 			name = Release;
 		};
-		9A591E6CFB9FCDF2852E706BD4B1EB3E /* Release */ = {
+		9E99944AEE5A72FF2CC2E7A626E51ED1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 061E9A967D3102BD462EBF9F96D102A7 /* XLPagerTabStrip.xcconfig */;
+			baseConfigurationReference = A95257E8D1A8BEECB7C027A020D99E7E /* Pods-try Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-try Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-try Extension/Pods-try Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_try_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A789AD15C7069B9487F6E2A93DE8D319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C98634AC7AFA67EE0F5BA6FEBC23BF /* HanekeSwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -2041,14 +2226,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift/HanekeSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MODULEMAP_FILE = "Target Support Files/HanekeSwift/HanekeSwift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = XLPagerTabStrip;
+				PRODUCT_NAME = Haneke;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2057,7 +2242,116 @@
 			};
 			name = Release;
 		};
-		9F394D77BA5BEF31530111BA5D3B06DA /* Debug */ = {
+		B969F054C45499978A13E6CB049BEAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A15594ECC0A81466DD50381C5ADE894 /* Timepiece-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Timepiece-iOS/Timepiece-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Timepiece-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Timepiece-iOS/Timepiece-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Timepiece;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9A50F149041B3D2E1741587FF3D2A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061E9A967D3102BD462EBF9F96D102A7 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CA980F0C8766837503189B2BD192D5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CB99FE1CF6B62984F8DD78A0F024C9 /* Freddy-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Freddy-watchOS/Freddy-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Freddy-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Freddy-watchOS/Freddy-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Freddy;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E3B08C7E04A8FB6822E0BA8BA13ABC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429B58384EDFB74B23774A4B7D9ADEEF /* Pods-try Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-try Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-try Extension/Pods-try Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_try_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E5F2585830AFF4CFACAE398D001FB8AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A498D694EBF86B6942DAFC3D55634DB5 /* Pods-trySwift.debug.xcconfig */;
 			buildSettings = {
@@ -2091,66 +2385,7 @@
 			};
 			name = Debug;
 		};
-		A0BCBCEEBC65871033DB3A4CD53A4083 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84725F1B72E63F2AB81CB251F93710D8 /* Toucan.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Toucan/Toucan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toucan/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toucan/Toucan.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Toucan;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A789AD15C7069B9487F6E2A93DE8D319 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58C98634AC7AFA67EE0F5BA6FEBC23BF /* HanekeSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift/HanekeSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HanekeSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HanekeSwift/HanekeSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Haneke;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BC3E5771118C66E7634EA56FFD23F057 /* Debug */ = {
+		F2B33B6F677D81D0E8B483BEC9650CA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 061E9A967D3102BD462EBF9F96D102A7 /* XLPagerTabStrip.xcconfig */;
 			buildSettings = {
@@ -2180,90 +2415,7 @@
 			};
 			name = Debug;
 		};
-		C10202C03C18E6A5A09F165D93F5B065 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53B768FDCCD428FE80E407F6CE82620A /* Pods-trySwift.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-trySwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-trySwift/Pods-trySwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_trySwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E60113806BE96DFE2322F1CFB94F7D5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 061E9A967D3102BD462EBF9F96D102A7 /* XLPagerTabStrip.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = XLPagerTabStrip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		F08288769952CBF80339CF0AB52CCF4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A95257E8D1A8BEECB7C027A020D99E7E /* Pods-try Extension.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-try Extension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-try Extension/Pods-try Extension.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_try_Extension;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		FFA6CDC197EEF8EC72A47CB5DBB2EEB4 /* Release */ = {
+		F8D788DC1DB70EB3FF27E4A525B943A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84725F1B72E63F2AB81CB251F93710D8 /* Toucan.xcconfig */;
 			buildSettings = {
@@ -2295,38 +2447,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02922C482DB90A4A5B73DC03C370C8BD /* Build configuration list for PBXNativeTarget "Freddy" */ = {
+		267ACE3A394B42A07FE01901A626A4D2 /* Build configuration list for PBXNativeTarget "Pods-try Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1529CF4BF002FA9ECE6E15CECCAB633A /* Debug */,
-				758BCAAF6A5E859C9D4C25BE1D2F5CED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0582F1ECE5BF8131FB42AF52E5CE037A /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC3E5771118C66E7634EA56FFD23F057 /* Debug */,
-				9A591E6CFB9FCDF2852E706BD4B1EB3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0ED2B8C7F1F4403DFE5C76B21F496D9D /* Build configuration list for PBXNativeTarget "Toucan" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A0BCBCEEBC65871033DB3A4CD53A4083 /* Debug */,
-				FFA6CDC197EEF8EC72A47CB5DBB2EEB4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		25272B1261E03A2EC5E6EE5DBD379ADC /* Build configuration list for PBXNativeTarget "Pods-trySwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9F394D77BA5BEF31530111BA5D3B06DA /* Debug */,
-				C10202C03C18E6A5A09F165D93F5B065 /* Release */,
+				E3B08C7E04A8FB6822E0BA8BA13ABC21 /* Debug */,
+				9E99944AEE5A72FF2CC2E7A626E51ED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2340,6 +2465,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3438198B47E91FA3D3CF60568EEAE818 /* Build configuration list for PBXNativeTarget "Freddy-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A063335D80EA883BEA60CC5A6DC065 /* Debug */,
+				2F21DE9C1FE58320DAF3E6A7C1FF9555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2349,11 +2483,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		563EAF0643E3F37BA2091AE594A6244C /* Build configuration list for PBXNativeTarget "Timepiece-watchOS" */ = {
+		4D1F658DD1C3168689C6619AEDBD8FF3 /* Build configuration list for PBXNativeTarget "Toucan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2622C6B86F99BF035B514E4E4377D4C6 /* Debug */,
-				5B25DB494F0BDDFD874FB34965FD4695 /* Release */,
+				234391CE5E38F7A69FB7568EE9C1A52B /* Debug */,
+				F8D788DC1DB70EB3FF27E4A525B943A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5067C7743F86B5419B9EF897A8EBAD19 /* Build configuration list for PBXNativeTarget "Timepiece-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8888DE50FE9E6F471DACDE29970B0C78 /* Debug */,
+				3D63A0C6E059D9F662A1F512C811A19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBE7D911F2851BB9937BD8426CEAEF9 /* Build configuration list for PBXNativeTarget "VTAcknowledgementsViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F09CA7C3B76EE853641E5B67D6006F /* Debug */,
+				8A0E9B27822FD88B9264C55EC017D443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7269893B81A91F47A78F9C3AB01792 /* Build configuration list for PBXNativeTarget "Freddy-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7AACA36A01FE717032677E85716D71 /* Debug */,
+				CA980F0C8766837503189B2BD192D5C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2367,38 +2528,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		837E46E7832BADFA4613D330DC3D4C22 /* Build configuration list for PBXNativeTarget "Pods-try Extension" */ = {
+		85CEB63E1F6E998CDAC8C47E8B1453DE /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29A01FFAF8EEC00EECBA3E21585CDD51 /* Debug */,
-				F08288769952CBF80339CF0AB52CCF4C /* Release */,
+				F2B33B6F677D81D0E8B483BEC9650CA2 /* Debug */,
+				5A88342DD89AF39323FB3C24A7714F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD1CA012A6950B6EF2EEF4EBA1FF8CF4 /* Build configuration list for PBXNativeTarget "VTAcknowledgementsViewController" */ = {
+		9FCCDFD3BFE57DBD40B8E64F5D358E4D /* Build configuration list for PBXNativeTarget "Timepiece-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FF7AF91832663AA647F26BE7A3FB1B8 /* Debug */,
-				4E5B2D9271B08B02AE1BA10B3F52EBC3 /* Release */,
+				4EEDF436A513614EB07A49A9AB7281D8 /* Debug */,
+				B969F054C45499978A13E6CB049BEAEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF42FD6F8D9E0446AB64D49F938C576F /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+		BB52B0AAA1542816F60C363BA9F88184 /* Build configuration list for PBXNativeTarget "Pods-trySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FDBB963126129D5045312F19608BEA5 /* Debug */,
-				E60113806BE96DFE2322F1CFB94F7D5B /* Release */,
+				E5F2585830AFF4CFACAE398D001FB8AE /* Debug */,
+				859B277ED263992EF70B272A9AA6EDE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E39AA530CE93A9857F174BE8CF0DD056 /* Build configuration list for PBXNativeTarget "Timepiece-iOS" */ = {
+		F242CA6D7471B0A7E3E0644BFCD23379 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				083D9E228E114C964C937C7C475CF76C /* Debug */,
-				52C4B49CAC2C18E0A6233DBEAE60BEA8 /* Release */,
+				56A569B5F437D652CF65E378D6B2B343 /* Debug */,
+				C9A50F149041B3D2E1741587FF3D2A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -59,7 +59,7 @@ private extension GlanceController {
     func configureSession(session: Session) {
         if let speaker = session.speaker {
             titleInterfaceLabel.setText(speaker.presentation.title)
-            speakerInterfaceImage.setImage(UIImage(named: speaker.image))
+            speakerInterfaceImage.setImage(speaker.image)
             nameInterfaceLabel.setText(speaker.name)
             twitterInterfaceLabel.setText("@\(speaker.twitter)")
         } else {

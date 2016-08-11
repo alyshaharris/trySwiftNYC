@@ -14,7 +14,7 @@ class SessionsDay3InterfaceController: WKInterfaceController {
 
     @IBOutlet private var sessionsTable: WKInterfaceTable!
     
-    private let sessions = Session.sessionsDay3
+    private let sessions = Session.sessions(for: .date(year: 2016, month: 09, day: 02))
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)

@@ -19,11 +19,7 @@ class SessionTableRowController: NSObject {
             titleInterfaceLabel.setText("🤓 \(speaker.presentation.title)")
             subtitleInterfaceLabel.setText(speaker.name)
         } else {
-            if session.sessionType == .Announcement {
-                titleInterfaceLabel.setText("🎙 \(session.description)")
-            } else {
-                titleInterfaceLabel.setText(session.description)   
-            }
+            titleInterfaceLabel.setText(session.description)
             subtitleInterfaceLabel.setText("try!")
         }
         

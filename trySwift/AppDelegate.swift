@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WatchConnectivity
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configureStyling()
         NetworkManager.refreshJSONData { updated, version in
             print("updated JSON file: \(updated ? "yes" : "no"), version: \(version)")
+            
+            if WCSession.isSupported() {
+                let watchSession = WCSession.defaultSession()
+                watchSession.delegate = self
+                watchSession.activateSession()
+                if watchSession.paired && watchSession.watchAppInstalled {
+                    do {
+                        try watchSession.updateApplicationContext(["version": version])
+                    } catch {
+                        print(error)
+                    }
+                }
+            }
+            
+            
             guard updated else { return }
             // Use updated json file in app
         }
@@ -26,6 +42,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 }
+
+extension AppDelegate: WCSessionDelegate { }
 
 private extension AppDelegate {
     

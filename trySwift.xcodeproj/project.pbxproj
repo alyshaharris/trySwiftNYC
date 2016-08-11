@@ -15,6 +15,12 @@
 		499CCFF41CC37BC9007A5BBB /* DayFilterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CCFF31CC37BC9007A5BBB /* DayFilterable.swift */; };
 		499CD0001CC39D0F007A5BBB /* data-1.0.json in Resources */ = {isa = PBXBuildFile; fileRef = 499CCFFF1CC39D0F007A5BBB /* data-1.0.json */; };
 		49AFE0171D02E97E004E716D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AFE0161D02E97E004E716D /* NetworkManager.swift */; };
+		49D94C5B1D5D01B0001C8C97 /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8DE1C6B17DC0074B6BE /* Presentation.swift */; };
+		49D94C5C1D5D029E001C8C97 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8DA1C6B09CE0074B6BE /* Speaker.swift */; };
+		49F287431D5D036600C48EAB /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8D61C6B05980074B6BE /* Session.swift */; };
+		49F287441D5D038300C48EAB /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992E3C31CC22C140038F13A /* JSONManager.swift */; };
+		49F287451D5D039000C48EAB /* DayFilterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CCFF31CC37BC9007A5BBB /* DayFilterable.swift */; };
+		49F287461D5D08D600C48EAB /* data-1.0.json in Resources */ = {isa = PBXBuildFile; fileRef = 499CCFFF1CC39D0F007A5BBB /* data-1.0.json */; };
 		A99FB38D56D5BFB191EFAE60 /* Pods_trySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6004E4BE6D0123525B468B8A /* Pods_trySwift.framework */; };
 		C0EBD91A760DA59295DFEEC9 /* Pods_try_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ABFAAA9C8A10BE2D1721324 /* Pods_try_Extension.framework */; };
 		FA39E8C71C6AB7640074B6BE /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8C61C6AB7640074B6BE /* ScheduleViewController.swift */; };
@@ -69,9 +75,6 @@
 		FA65B5B01C79895A00DCAF0B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B5AF1C79895A00DCAF0B /* ComplicationController.swift */; };
 		FA65B5B21C79895A00DCAF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA65B5B11C79895A00DCAF0B /* Assets.xcassets */; };
 		FA65B5B61C79895A00DCAF0B /* try.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FA65B5981C79895A00DCAF0B /* try.app */; };
-		FA65B5C21C79BE1D00DCAF0B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B5C11C79BE1D00DCAF0B /* Session.swift */; };
-		FA65B5C51C79C9BF00DCAF0B /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B5C41C79C9BF00DCAF0B /* Speaker.swift */; };
-		FA65B5C71C79C9E200DCAF0B /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B5C61C79C9E200DCAF0B /* Presentation.swift */; };
 		FA65B5CA1C79CAF600DCAF0B /* NSLocaleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B5C91C79CAF600DCAF0B /* NSLocaleExtension.swift */; };
 		FAED14CB1C7C1A1000F11E25 /* SessionTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED14CA1C7C1A1000F11E25 /* SessionTableRowController.swift */; };
 		FAED14CE1C7C1B2600F11E25 /* SessionsDay1InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED14CD1C7C1B2600F11E25 /* SessionsDay1InterfaceController.swift */; };
@@ -211,9 +214,6 @@
 		FA65B5AF1C79895A00DCAF0B /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		FA65B5B11C79895A00DCAF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA65B5B31C79895A00DCAF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA65B5C11C79BE1D00DCAF0B /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		FA65B5C41C79C9BF00DCAF0B /* Speaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
-		FA65B5C61C79C9E200DCAF0B /* Presentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
 		FA65B5C91C79CAF600DCAF0B /* NSLocaleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLocaleExtension.swift; sourceTree = "<group>"; };
 		FAED14CA1C7C1A1000F11E25 /* SessionTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTableRowController.swift; sourceTree = "<group>"; };
 		FAED14CD1C7C1B2600F11E25 /* SessionsDay1InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsDay1InterfaceController.swift; sourceTree = "<group>"; };
@@ -517,22 +517,11 @@
 				FA65B5AD1C79895A00DCAF0B /* GlanceController.swift */,
 				FA65B5AF1C79895A00DCAF0B /* ComplicationController.swift */,
 				FAED14CA1C7C1A1000F11E25 /* SessionTableRowController.swift */,
-				FA65B5C31C79C9A600DCAF0B /* Models */,
 				FA65B5C81C79CAE000DCAF0B /* Utilities */,
 				FA65B5B11C79895A00DCAF0B /* Assets.xcassets */,
 				FA65B5B31C79895A00DCAF0B /* Info.plist */,
 			);
 			path = "try Extension";
-			sourceTree = "<group>";
-		};
-		FA65B5C31C79C9A600DCAF0B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				FA65B5C11C79BE1D00DCAF0B /* Session.swift */,
-				FA65B5C41C79C9BF00DCAF0B /* Speaker.swift */,
-				FA65B5C61C79C9E200DCAF0B /* Presentation.swift */,
-			);
-			name = Models;
 			sourceTree = "<group>";
 		};
 		FA65B5C81C79CAE000DCAF0B /* Utilities */ = {
@@ -785,6 +774,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA65B5B21C79895A00DCAF0B /* Assets.xcassets in Resources */,
+				49F287461D5D08D600C48EAB /* data-1.0.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,13 +913,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAED14CE1C7C1B2600F11E25 /* SessionsDay1InterfaceController.swift in Sources */,
+				49F287441D5D038300C48EAB /* JSONManager.swift in Sources */,
+				49D94C5B1D5D01B0001C8C97 /* Presentation.swift in Sources */,
 				FA65B5CA1C79CAF600DCAF0B /* NSLocaleExtension.swift in Sources */,
-				FA65B5C21C79BE1D00DCAF0B /* Session.swift in Sources */,
-				FA65B5C71C79C9E200DCAF0B /* Presentation.swift in Sources */,
 				FAED14D01C7C1B3400F11E25 /* SessionsDay2InterfaceController.swift in Sources */,
+				49D94C5C1D5D029E001C8C97 /* Speaker.swift in Sources */,
 				FA65B5AC1C79895A00DCAF0B /* ExtensionDelegate.swift in Sources */,
 				FA65B5B01C79895A00DCAF0B /* ComplicationController.swift in Sources */,
-				FA65B5C51C79C9BF00DCAF0B /* Speaker.swift in Sources */,
+				49F287451D5D039000C48EAB /* DayFilterable.swift in Sources */,
+				49F287431D5D036600C48EAB /* Session.swift in Sources */,
 				FAED14D21C7C1B4500F11E25 /* SessionsDay3InterfaceController.swift in Sources */,
 				FAED14CB1C7C1A1000F11E25 /* SessionTableRowController.swift in Sources */,
 				FA65B5AE1C79895A00DCAF0B /* GlanceController.swift in Sources */,

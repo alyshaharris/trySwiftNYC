@@ -1,5 +1,5 @@
 framework module Freddy {
-  umbrella header "Freddy-umbrella.h"
+  umbrella header "Freddy-iOS-umbrella.h"
 
   export *
   module * { export * }

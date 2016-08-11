@@ -7,8 +7,11 @@
 //
 
 import UIKit
-import Toucan
 import Freddy
+
+#if os(iOS)
+import Toucan
+#endif
 
 struct Speaker {
     let id: Int
@@ -29,7 +32,11 @@ extension Speaker: JSONDecodable {
         if let
             imageString = try json.string("image", alongPath: [.NullBecomesNil]),
             image = UIImage(named: imageString) {
-            self.image = Toucan(image: image).maskWithEllipse().image
+            #if os(iOS)
+                self.image = Toucan(image: image).maskWithEllipse().image
+            #else
+                self.image = image
+            #endif
         } else {
             self.image = nil
         }

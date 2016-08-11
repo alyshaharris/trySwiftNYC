@@ -139,22 +139,18 @@ private extension ComplicationController {
         if let speaker = session.speaker {
             tmpl.body1TextProvider = CLKSimpleTextProvider(text: "🤓 \(speaker.presentation.title)")
         } else {
-            if session.sessionType == .Announcement {
-                tmpl.body1TextProvider = CLKSimpleTextProvider(text: "🎙 \(session.description)")
-            } else {
-                tmpl.body1TextProvider = CLKSimpleTextProvider(text: session.description)
-            }
+            tmpl.body1TextProvider = CLKSimpleTextProvider(text: session.description)
         }
         
         return tmpl
     }
     
     func timelineEntryDateForSession(session: Session) -> NSDate {
-        if session.index - 1 > 0 {
-            let previousSession = Session.sessions[session.index - 1]
-            return previousSession.endTime
-        } else {
+//        if session.index - 1 > 0 {
+//            let previousSession = Session.sessions[session.index - 1]
+//            return previousSession.endTime
+//        } else {
             return conferenceStartDate
-        }
+//        }
     }
 }
